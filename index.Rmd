@@ -41,11 +41,11 @@ class: middle, title-slide
 
 <div class="my-logo-left"></div>
 
-# Title
+# Biodiversity Distribution Index
 
 <hr width="65%" align="left" size="0.3" color="orange"></hr>
 
-## My talk subtitle
+## Un indice de biodiversité basé sur les changements de distribution d'espèces au Québec
 
 ### Vincent Bellavance
 
@@ -57,3 +57,59 @@ class: middle, title-slide
 ---
 
 # Introduction
+
+Grands rapports
+
+---
+
+# Introduction
+
+Mesures changements de biodiversité
+
+---
+
+# Introduction
+
+Les variables de biodiversité essentielles
+
+---
+
+# Introduction
+
+Les indices de biodiversité
+
+---
+
+# Introduction
+
+Le Living Planet Index
+
+---
+
+# Introduction
+
+Les changements de biodiversité dans le monde
+
+---
+
+# Introduction
+
+Les changements de biodiversité au Canada
+
+---
+
+# Introduction
+
+Les changements de biodiversité au Québec
+
+---
+
+# Objectifs
+
+---
+
+# Méthodes
+
+---
+
+# Le Biodiversity Distribution Index
