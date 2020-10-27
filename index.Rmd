@@ -56,15 +56,51 @@ class: middle, title-slide
 
 ---
 
-# Introduction
+# Remember
 
-Grands rapports
+<!---```{tikz, fig.cap = "Funky tikz", fig.ext = 'png', echo = FALSE}
+\usetikzlibrary{arrows}
+\usetikzlibrary{patterns}
+\definecolor{zzffzz}{rgb}{0.6,1,0.6}
+\definecolor{ffcctt}{rgb}{1,0.8,0.2}
+\definecolor{yqyqdz}{rgb}{0.5019607843137255,0.5019607843137255,0.8509803921568627}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-4.505289256198347,-6.316528925619829) rectangle (21.02198347107439,13.083471074380155);
+\draw [line width=2pt,pattern color=yqyqdz,fill=yqyqdz,fill opacity=0.25] (2,0) circle (3cm);
+\draw [line width=2pt,pattern color=ffcctt,fill=ffcctt,fill opacity=0.25] (6,0) circle (3cm);
+\draw [line width=2pt,pattern color=zzffzz,fill=zzffzz,fill opacity=0.25] (4,3.46415) circle (3cm);
+\end{tikzpicture}
+```-->
+
 
 ---
 
 # Introduction
 
-Mesures changements de biodiversité
+Grands rapports
+
+1. C'est cette année que prenait fin les objectifs d'Aichi 2020 que la CBD s'était fixé en 2010.
+  
+  - Qu'est-ce que la CBD
+  - Sorti de plusieurs rapports des organisations mondiales (CBD, IPBES, FAO) qui font état de la situation sur la biodiversité dans le monde
+  - La majorité des objectifs d'Aichi n'ont pas été respectées
+  - La plupart des rapports font état d'une perte de biodiversité à l'échelle globale qui s'aggrave
+  - Ces organisations soulignent toutefois l'importance d'assurer des suivis de biodiversité à long terme afin de les identifier et les prédire
+
+---
+
+# Introduction
+
+Défis des mesures changements de biodiversité
+
+2. Mesurer les changements de biodiversité représentent un énorme défi
+  
+  - Il est important de faire la distinction entre perte et altération de biodiversité
+  - On peut parler de perte lorsqu'on ne regarde que les espèces indigènes, mais lorsqu'on ajoute les espèces exotiques, on se retrouve avec une altération
+  - Pareil avec l'échelle. À l'échelle locale, on peut perdre une espèce, mais à plus grande échelle, on se rend compte qu'elle n'a que migré ailleurs
+  - L'échelle fait l'objet d'un débat alors que certains affirment que c'est la biodiversité à l'échelle locale qui importe puisque cette biodiversité est responsable des services écosystémiques. Plusieurs papiers affirment que la biodiversité à l'échelle locale augmente, mais ne réfute pas qu'elle diminue à l'échelle globale.
+  - Ces aspects vont surement mener à plusieurs débats pour encore longtemps, mais certains aspects des changements de biodiversité demeurent plus difficiles à gérer. Le manque de données reste probablement le plus gros défis pour les suivis de biodiversité à long terme, puisqu'ils amènent de forts biais taxonomiques et géographiques.
+  - En plus de boucher les trous, il faut harmoniser et standardiser les données hétérogènes afin de maximiser les données utilisées
 
 ---
 
@@ -72,11 +108,37 @@ Mesures changements de biodiversité
 
 Les variables de biodiversité essentielles
 
+3. C'est là que les variables essentielles de biodiversité arrivent
+
+  - Elles ont été créées dans le but de d'harmoniser les données sur la biodiversité en proposant un ensemble de variables minimales permettant d'évaluer les changements de biodiversité.
+  - Il existe six classes de VEBs (avec schéma) et chaque classes représente plusieurs variables:
+    - Génétique
+    - Population d'espèce
+    - Traits d'espèce
+    - Composition communauté
+    - Structure d'écosystème
+    - Fonctions d'écosystème
+  - Il existe plusieurs types de veb (modélisé, pas modélisé ou moyennement modélisé)
+  - Si on prend l'exemple de la classe de population d'espèce, la modélisation est utilisée pour harmoniser les données en plus de combler les manques de données (par exemple, les sdm)
+  - (Avec schéma d'un cube qui prend forme): Le résultat devient un cube de données avec les axes représentant l'espace, le temps et l'organisation taxonomique
+  - **Le cube se situe donc entre les données brutes et les indicateurs de biodiversité**
+
 ---
 
 # Introduction
 
-Les indices de biodiversité
+Les indicateurs de biodiversité
+
+4. Ce sont des indices qui représentent les changements de biodiversité
+
+  - Ces indicateurs sont très utiles pour informer les décideurs et le public sur l'état de la biodiversité
+  - Permet de voir si les politiques ont eu des résultats ou si une cible de biodiversité à été atteinte
+  - Les indices doivent être développées selon les données disponibles
+  - Une indice ne peut pas couvrir tous les changements de biodiversité
+  - Avec les objectifs de biodiversité 2010 et les objectifs d'Aichi, le développement d'indice de biodiversité s'est grandement accéléré afin de pouvoir vérifier l'atteinte des cibles imposées
+  - Parmis les **X** indices développés, Le LPI, LE RLI et le WBI sont des indices qui sont très bien développés et relativement bien connu.
+  - Le RLI:
+  - Le WBI:
 
 ---
 
@@ -84,11 +146,25 @@ Les indices de biodiversité
 
 Le Living Planet Index
 
+- Principe du LPI assez simple
+- Mesures des changements moyens de la taille des populations de vertébrés
+- Illustration avec une population au fil du temps
+  - On fait ensuite la moyenne de toute les populations pour l'échelle désirée (région, globale, taxonomie, etc.)
+- Ce que le LPI n'est pas:
+  - Non, on a pas perdu 68% des vertébrés dans le mondiales
+  - La taille des populations de vertébrés à diminué en moyenne de 68%
+  - Importance pour l'indice d'être bien et facilement communiquée
+
 ---
 
 # Introduction
 
 Les changements de biodiversité dans le monde
+
+- Commencer par les changements de biodiversité des indices (Le résultat du LPI vient un peu se lié à ce que le LPI n'est pas)
+- Parler des changements au niveau génétique, extinction d'espèces, etc.
+- Donner des chiffres des rapports
+- Parler des études qui contredisent ou qui nuancent le discours: Daskalova, Dornelas, Vellend, Blowes, etc.
 
 ---
 
@@ -96,19 +172,51 @@ Les changements de biodiversité dans le monde
 
 Les changements de biodiversité au Canada
 
+- Si on approche de chez nous, il y a quand même beaucoup de suivi de biodiversité au Canada:
+  - LPI Canada
+  - RLI Canada
+  - WBI Canada
+  - Indices sur la page d'environnement Canada
+  - Beaucoup de suivi comme ceux dans le Golfe, etc.
+
 ---
 
 # Introduction
 
 Les changements de biodiversité au Québec
 
+
+  - Il n'y au final aucun suivi de biodiversité à long terme au Québec
+  - Impossible de dire quels ont été les changements de biodiversité au Québec dans les dernières années
+  - Les données de suivi de population pour calculer un indice bien développé comme le LPI manquent grandement
+
 ---
 
+# Question
+
+1. Est-ce qu'il y a eu des changements de biodiversité au Québec dans les dernières décennies? Si oui, quels ont été ces changements?
+2. Est-il possible de développer un nouvel indice utilisant les données d'occurrence et d'abondance d'espèce?
+
+---
 # Objectifs
+<hr width="100%" align="left" size="0.3" color="orange"></hr>
+<br>
+.font110[Objectif général:]
+<br><br>
+> **.font120[.center[Développer un indice de changement de biodiversité basé sur la distribution des espèces]]**
+
+<br><br>
+--
+
+.font110[Objectif secondaire:]
+<br><br>
+>**.font120[.center[Développer le pipeline qui permettra d'automatiser le calcul de l'indice avec la base de données ATLAS et de représenter le résultat au moyen d'un outil web interactif]]**
 
 ---
 
 # Méthodes
+
+
 
 ---
 
