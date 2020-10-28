@@ -1,5 +1,5 @@
 ---
-title: Talk template
+title: Biodiversity Distribution Index
 output:
   xaringan::moon_reader:
   #  self_contained: TRUE
@@ -41,165 +41,268 @@ class: middle, title-slide
 
 <div class="my-logo-left"></div>
 
-# Biodiversity Distribution Index
+# Suivi de biodiversité au Québec
 
-<hr width="65%" align="left" size="0.3" color="orange"></hr>
+<hr width="65%" align="left" size="0.3" color="#33638d"></hr>
 
-## Un indice de biodiversité basé sur les changements de distribution d'espèces au Québec
+## Biodiversity Distribution Index
 
 ### Vincent Bellavance
 
-<br><br><br><br><br>
+<br>
 <i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> [VincentBellavance/seminar1](https://github.com/VincentBellavance/seminar1)
 
 <i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> [@v_bellavance](https://twitter.com/v_bellavance)
 
 ---
 
-# Remember
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-<!---```{tikz, fig.cap = "Funky tikz", fig.ext = 'png', echo = FALSE}
-\usetikzlibrary{arrows}
-\usetikzlibrary{patterns}
-\definecolor{zzffzz}{rgb}{0.6,1,0.6}
-\definecolor{ffcctt}{rgb}{1,0.8,0.2}
-\definecolor{yqyqdz}{rgb}{0.5019607843137255,0.5019607843137255,0.8509803921568627}
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
-\clip(-4.505289256198347,-6.316528925619829) rectangle (21.02198347107439,13.083471074380155);
-\draw [line width=2pt,pattern color=yqyqdz,fill=yqyqdz,fill opacity=0.25] (2,0) circle (3cm);
-\draw [line width=2pt,pattern color=ffcctt,fill=ffcctt,fill opacity=0.25] (6,0) circle (3cm);
-\draw [line width=2pt,pattern color=zzffzz,fill=zzffzz,fill opacity=0.25] (4,3.46415) circle (3cm);
-\end{tikzpicture}
-```-->
+- Objectifs d'Aichi 2020
 
+--
+
+- _Global Biodiversity Outlook_
+
+--
+
+- Déclin s'accélère et actions insuffisantes
+
+--
+
+- IPBES, FAO, etc.
+
+--
+
+- Importance des suivis de biodiversité
+
+???
+
+C'est cette année que se terminait la décennie pour la biodiversité qui a été déclarée par l'ONU en 2011. Cette décennie servait à promouvoir le plan stratégique 2011-2020 et les objectifs d'Aichi, tous deux adopté par les parties de la Convention sur la Diversité Biologique, un traité international signé par plus de 160 pays en 1992 qui vise la conservation de la biodiversité. Les objectifs d'Aichi représente 20 objectifs visant à réduire la perte de biodiversité à l'échelle globale. Dnas le cadre de la dernière année de la décennie, les parties de la CBD a sorti un rapport afin d'évaluer l'atteinte des objectifs d'Aichi. Le rapport conclu qu'aucun des objectifs n'ont été atteints. Ce rapport conclut que la perte de biodiversité s'accélère et que les actions de conservation ne sont pas assez importantes pour ralentir ce déclin. Cette conclusion est également partagé dans les rapports de l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) et de la Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques (IPBES), qui est à la biodiversité ce que le Groupe d'experts intergouvernemental sur l'évolution du climat (IPCC) est au climat. Le message général de ces rapports est donc qu'il faut en faire beaucoup plus pour protéger la biodiversité. Tous ces organismes rappellent également l'importance d'implémenter des suivis de biodiversité à l'échelle régional, national et sub-national afin d'avoir de mieux mesurer les changements de biodversité et mieux identifier les besoins en conservation.
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- Difficulté à définir la biodiversité
+
+--
+
+- Interprétation des changements de biodiversité
+
+--
+
+  - Ex: local vs global
+
+--
+
+- Échelle temporelle
+
+--
+
+- Altération vs perte
+
+--
+
+- Manque de donnéess
+
+--
+
+- Harmonisations des données
+
+???
+
+Les suivis de biodiversité ne sont pas vraiment simple à faire. Le simple fait de définir la biodiversité n'est pas nécessairement facile. Cela vient entres autres du fait que la biodiversité se présente sous plusieurs dimensions différentes: génétique, composition de la communauté, services écosystèmes, interactions entre espèces, etc. Même lorsqu'on réussit à bien définir ce qu'on veut mesurer, l'interprétation des changements de biodiversité peut mener à plusieurs débats. Par exemple, il y a le débat sur les changements de biodiversité à l'échelle locale vs globale qui est réapparu depuis quelques années. D'un côté, on dit que la biodiversité globale est sur le déclin et que c'est la catastrophe. De l'autre, on est pas si alarmiste. Puisque c'est les services écosystémiques dépendent de la biodiversité locale, certains chercheurs croient qu'on devrait se concentrer sur la biodiversité locale, qui ne semble pas décliner autant. Il faut donc faire attention à l'échelle spatiale et en tenir compte dans l'analyse des résultats. Il faut aussi faire attention à l'échelle temporelle. Il faut être conscient qu'on compare toujours la biodiversité aujourd'hui à celle d'un autre moment. Ce sont des mesures relatives. De plus, ce n'est pas tous les taxons qui réagissent à la même vitesse aux changements de l'environnement et important d'avoir des données à un intervalle qui nous permet de capter les changements (arbres vs insectes). Important également de différencier la perte vs. l'altération. Par exemple, si on ne mesure que des espèces indigènes et que ces espèces se font remplacer par des espèces exotiques, nos résultats vont démontrer qu'il y a une perte de biodiversité. Si on prend toutefois les espèces exotiques en compte, on va plutôt observer une altération de la biodiversité, c'est-à-dire qu'on ne perd pas nécessairement de biomasse ou d'abondance d'espèce, mais que les espèces présentes à un endroit seront différentes. Il y a toutefois un problème qui représente un plus gros défi dans les mesures de changements de biodiversité: le manque de données. Beaucoup moins de données dans les Tropiques et les pays en voie de développement et beaucoup plus en Europe et en Amérique du Nord. Ça amène de gros biais taxonomiques et spatial, limite l'interprétation des résultats. C'est donc nécessaire d'utiliser le plus grand nombre de données possibles de divers sources. Ces données doivent toutefois être harmonisées. 
 
 ---
 
-# Introduction
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-Grands rapports
+- Harmoniser les données sur la biodiversité
 
-1. C'est cette année que prenait fin les objectifs d'Aichi 2020 que la CBD s'était fixé en 2010.
-  
-  - Qu'est-ce que la CBD
-  - Sorti de plusieurs rapports des organisations mondiales (CBD, IPBES, FAO) qui font état de la situation sur la biodiversité dans le monde
-  - La majorité des objectifs d'Aichi n'ont pas été respectées
-  - La plupart des rapports font état d'une perte de biodiversité à l'échelle globale qui s'aggrave
-  - Ces organisations soulignent toutefois l'importance d'assurer des suivis de biodiversité à long terme afin de les identifier et les prédire
+--
 
----
+- Six classes de VEBs (avec schéma) et chaque classes représente plusieurs variables:
+  - Génétique
+  - Population d'espèce
+  - Traits d'espèce
+  - Composition communauté
+  - Structure d'écosystème
+  - Fonctions d'écosystème
 
-# Introduction
+--
 
-Défis des mesures changements de biodiversité
+- Population d'espèce:
 
-2. Mesurer les changements de biodiversité représentent un énorme défi
-  
-  - Il est important de faire la distinction entre perte et altération de biodiversité
-  - On peut parler de perte lorsqu'on ne regarde que les espèces indigènes, mais lorsqu'on ajoute les espèces exotiques, on se retrouve avec une altération
-  - Pareil avec l'échelle. À l'échelle locale, on peut perdre une espèce, mais à plus grande échelle, on se rend compte qu'elle n'a que migré ailleurs
-  - L'échelle fait l'objet d'un débat alors que certains affirment que c'est la biodiversité à l'échelle locale qui importe puisque cette biodiversité est responsable des services écosystémiques. Plusieurs papiers affirment que la biodiversité à l'échelle locale augmente, mais ne réfute pas qu'elle diminue à l'échelle globale.
-  - Ces aspects vont surement mener à plusieurs débats pour encore longtemps, mais certains aspects des changements de biodiversité demeurent plus difficiles à gérer. Le manque de données reste probablement le plus gros défis pour les suivis de biodiversité à long terme, puisqu'ils amènent de forts biais taxonomiques et géographiques.
-  - En plus de boucher les trous, il faut harmoniser et standardiser les données hétérogènes afin de maximiser les données utilisées
+--
 
----
+  - Modélisation (Modèles de distribution d'espèces)
 
-# Introduction
+--
 
-Les variables de biodiversité essentielles
+- Pont entre données brutes et indicateurs de biodiversité
 
-3. C'est là que les variables essentielles de biodiversité arrivent
+???
 
-  - Elles ont été créées dans le but de d'harmoniser les données sur la biodiversité en proposant un ensemble de variables minimales permettant d'évaluer les changements de biodiversité.
-  - Il existe six classes de VEBs (avec schéma) et chaque classes représente plusieurs variables:
-    - Génétique
-    - Population d'espèce
-    - Traits d'espèce
-    - Composition communauté
-    - Structure d'écosystème
-    - Fonctions d'écosystème
-  - Il existe plusieurs types de veb (modélisé, pas modélisé ou moyennement modélisé)
-  - Si on prend l'exemple de la classe de population d'espèce, la modélisation est utilisée pour harmoniser les données en plus de combler les manques de données (par exemple, les sdm)
-  - (Avec schéma d'un cube qui prend forme): Le résultat devient un cube de données avec les axes représentant l'espace, le temps et l'organisation taxonomique
-  - **Le cube se situe donc entre les données brutes et les indicateurs de biodiversité**
+C'est là qu'entre en jeu les variables de biodiversité essentielles. Ces variables, dont le développement est toujours en cours, ont pour but d'harmoniser les données sur la biodiversité en proposant un ensemble minimales permettant d'évaluer les changements de biodiversité. Ces variables d'état à trois dimensions (temps, espace et organisation biologique) doivent être biologiques (pas de nutriments, pas de pressions anthropiques, etc.), sensibles aux changements et indépendants des écosystèmes afin de faciliter les comparaisons. Les VEBs sont divisées en six classes afin de couvrir les dimensions majeures de la biodiversité. Un groupe de travail par classe s'affère présentement au développement des variables. Certaines classes de VEBs ont eu un développement plus rapide que d'autres. C'est le cas notamment de la VEB d'espèce de population. Dans cette classe, la modélisation a été identifié comme un outil très important pour combler le manque de données et pour les harmoniser. Avec des modèles de distribution d'espèce (SDM), on peut transformer les données brutes (qui sont éparses dans le temps et l'espace) en un cube de données dont les trois axes sont le temps, l'espace et la taxonomie. Ce cubre fait le pont entre les données brutes et les indicateurs de biodiversité qui vont être calculés avec les VEBs. 
 
 ---
 
-# Introduction
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-Les indicateurs de biodiversité
+- Représenter changements de manière simplifiés
 
-4. Ce sont des indices qui représentent les changements de biodiversité
+--
 
-  - Ces indicateurs sont très utiles pour informer les décideurs et le public sur l'état de la biodiversité
-  - Permet de voir si les politiques ont eu des résultats ou si une cible de biodiversité à été atteinte
-  - Les indices doivent être développées selon les données disponibles
-  - Une indice ne peut pas couvrir tous les changements de biodiversité
-  - Avec les objectifs de biodiversité 2010 et les objectifs d'Aichi, le développement d'indice de biodiversité s'est grandement accéléré afin de pouvoir vérifier l'atteinte des cibles imposées
-  - Parmis les **X** indices développés, Le LPI, LE RLI et le WBI sont des indices qui sont très bien développés et relativement bien connu.
-  - Le RLI:
-  - Le WBI:
+- Sous forme de série temporelle
+
+--
+
+- Informer les décideurs et le public
+
+--
+
+- Doit être facilement compréhensible et basé sur des données disponibles
+
+--
+
+- Plus d'une soixantaine:
+  - LPI
+  - RLI
+  - WBI
+
+???
+
+Les indicateurs de biodiversité sont des indices qui représentent l'état de la biodiversité de manière simplifiée. Comme la biodiversité est un concept très large, ces indices doivent viser un aspect précis ce celle-ci. Ces indicateurs vont être représentés sous forme de série temporelle, ce qui permet de visualiser l'évolution de la mesure au fil du temps. Ils sont très utiles pour informer les décideurs et le public sur l'atteinte d'une cible de conservation et simplement sur l'état de la biodiversité. Elles permettent également de voir si des politiques et des actions ayant pour but la conservation de la biodiversité ont eu les impacts escomptés. Pour cela, l'indicateur doit être facilement compréhensible et communicable et doit bien répondre aux changements. L'indicateurs doit également être basé sur des données disponibles si on veut voir une évolution. La mise en place par la Convention sur la Diversité Biologique des objectifs pour la biodiversité de 2010 suivi des objectifs d'Aichi 2020 a grandement accélérer le développement de plusieurs indicateurs. Il en existe aujourd'hui plus de 60. Le Red List Index, le Wild Bird Index et le Living Planet Index font partis des indicateurs les mieux développés et les plus connus. RLI: Risque d'extinction des espèces. WBI: LPI pour les oiseaux
+---
+
+# Le Living Planet Index
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- Mesure des changements moyens de la taille des populations de vertébrés à chaque année depuis 1970
+
+--
+
+- Utilise les suivis de population à long terme (même méthodologie et min. 2 ans)
+
+--
+
+- Peut-être caculer globalement, pour une région précise ou pour un groupe taxonomique
+
+--
+
+- Non, on a pas perdu 68% des vertébrés dans le mondiales
+
+--
+
+- La taille des populations de vertébrés à diminué en moyenne de 68%
 
 ---
 
-# Introduction
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-Le Living Planet Index
+- Diminution moyenne de la taille des populations plus importantes en **Afrique (-65%)** et surtout en **Amérique du Sud (-94%...)**
 
-- Principe du LPI assez simple
-- Mesures des changements moyens de la taille des populations de vertébrés
-- Illustration avec une population au fil du temps
-  - On fait ensuite la moyenne de toute les populations pour l'échelle désirée (région, globale, taxonomie, etc.)
-- Ce que le LPI n'est pas:
-  - Non, on a pas perdu 68% des vertébrés dans le mondiales
-  - La taille des populations de vertébrés à diminué en moyenne de 68%
-  - Importance pour l'indice d'être bien et facilement communiquée
+--
 
----
 
-# Introduction
+- **Amérique du Nord (-33%)** et **Europe/nord de l'Asie (-24%)**
 
-Les changements de biodiversité dans le monde
+--
 
-- Commencer par les changements de biodiversité des indices (Le résultat du LPI vient un peu se lié à ce que le LPI n'est pas)
-- Parler des changements au niveau génétique, extinction d'espèces, etc.
-- Donner des chiffres des rapports
-- Parler des études qui contredisent ou qui nuancent le discours: Daskalova, Dornelas, Vellend, Blowes, etc.
 
----
+- Résultats nuancés par certaines recherches (Daskalova 2018):
+  - Pop déclin = Pop augmentation
+  - Amphibiens = Seul à décliner
 
-# Introduction
+--
 
-Les changements de biodiversité au Canada
+- le RLI: **Risques d'extinction augmentent** de plus en plus pour tous les taxons étudiés
 
-- Si on approche de chez nous, il y a quand même beaucoup de suivi de biodiversité au Canada:
-  - LPI Canada
-  - RLI Canada
-  - WBI Canada
-  - Indices sur la page d'environnement Canada
-  - Beaucoup de suivi comme ceux dans le Golfe, etc.
+--
+
+- Le WBI: Diminution d'environ **20% pour les espèces d'oiseaux**
+  - **40% pour les oiseaux spécialistes**
+
+???
+
+RLI: Taxons étudiés: Amphibiens, Coraux, Oiseaux, Mammifères, Cycadales (ordre de gymnospermes qui vit dans les tropiques)
 
 ---
 
-# Introduction
+# La biodiversité au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-Les changements de biodiversité au Québec
+- LPI: Tendance **relativement stable** (6%)
 
+--
 
-  - Il n'y au final aucun suivi de biodiversité à long terme au Québec
-  - Impossible de dire quels ont été les changements de biodiversité au Québec dans les dernières années
-  - Les données de suivi de population pour calculer un indice bien développé comme le LPI manquent grandement
+- RLI: Également **stable** (risque d'extinction augmente de 0.8%)
+
+--
+
+- WBI, Oiseaux en déclin:
+  - Oiseaux de rivage **(-40%)**
+  - Oiseaux de prairies **(-57%)**
+  - Insectivores aériens **(-59%)**
+
+--
+
+- WBI, Oiseaux en augmentation:
+  - Sauvagine **(150%)**
+  - Oiseaux de proie **(110%)**
+
+???
+
+Plusieurs indicateurs sont disponibles pour le Canada. En général, la biodiversité au Canada semble relativement bien se porter. La taille moyenne des population de vertébrés est relativement stable avec un augmentation moyenne de 6%. Le Red List Index est également stable avec une augmentation de risque d'extinction moyen de 0.8%. Le rapport de l'état des populations d'oiseaux du Canada est un des autres suivis de biodiversité du pays. Il utilise le WBI pour mesurer le changement moyen dans la taille des populations de groupe taxonomique d'oiseaux. Les changements varient énormément selon le groupe. Les oiseaux de rivage, de prairies et les insectivores aériens sont les oiseaux les plus en déclin. Les populations de sauvagine et d'oiseaux de proie sont quant à eux en forte hausse d'abondance. Il y a somme toute plusieurs suivi de biodiversité pour le Canada, ce qui nous permet de nous faire une idée générale de l'état de cette biodiversité.
 
 ---
 
-# Question
+# La biodiversité au Québec
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-1. Est-ce qu'il y a eu des changements de biodiversité au Québec dans les dernières décennies? Si oui, quels ont été ces changements?
-2. Est-il possible de développer un nouvel indice utilisant les données d'occurrence et d'abondance d'espèce?
+- Aucun suivi de biodiversité
+
+--
+
+- CDPNQ: espèces à statut
+
+--
+
+- Manque de données
+
+--
+
+- Orientation du gouvernement
+
+???
+
+À l'échelle du Québec, toutefois, il n'existe pas, à pas connaissance, de suivi de biodiversité semblable à ceux du Canada (LPI, RLI, WBI, etc.). C'est donc difficile, voir impossible, présentement, de dire comment la biodiversité à changé au Québec dans les dernières décennies. Le Centre de données sur le patrimoine naturel du Québec (CDPNQ) est un des acteurs importants du Québec dans le suivi de la biodiversité, mais son mandat est principalement relié (mais ne se limite pas) le suivi des espèces à statut. Le manque de données, comme les suivis de populations à long terme pour calculer des indices comme le LPI, nuit fortement à toutes initiatives de suivi de biodiversité. Il est important de mettre en place de tel suivi puisque l'évaluation de la biodiversité et l’élabo-
+ration d’un réseau de suivi fait partie des orientations du gouvernement du Québec en matière de diversité écologique.
+---
+
+# Questions
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+<br>
+
+> .font110[Comment la biodiversité à changé au Québec dans les dernières décennies?]
+
+<br>
+
+--
+
+<br>
+
+> .font110[Est-il possible de développer un indice utilisant les données d'occurrence et d'abondance disponibles?]
 
 ---
+
 # Objectifs
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 <br>
 .font110[Objectif général:]
 <br><br>
@@ -215,9 +318,207 @@ Les changements de biodiversité au Québec
 ---
 
 # Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline1.png)]
 
 ---
 
-# Le Biodiversity Distribution Index
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline2.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline2.png)]
+
+.font110[- Données d'abondance et d'occurrence des espèces du Québec]
+--
+.font110[
+- Proviennent de plusieurs sources dont:
+  - Gouvernementales
+  - Base de données ouvertes (e.g. GBIF)
+  - Science citoyenne
+]
+--
+.font110[
+- Standard d'informations pour les observations sur la biodiversité au Québec
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline3.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
+
+.left[![:scale 40%; position:relative; top: 5vh; left: 2vh](images/sdm/sdm1.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
+
+.left[![:scale 61.5%; position:relative; top: 5vh; left: 2vh](images/sdm/sdm2.png)]
+
+--
+
+<div style="float: right; position: relative; font-size: 120%; top: -19vh; left: -8vh;">10km x 10km</div>
+
+--
+
+.right[![:scale 18%; position:relative; top: -9vh; left: -9vh](images/sdm/enviro.png)]
+
+--
+
+.right[![:scale 19%; position:relative; top: -20vh; left: -5vh](images/sdm/enviro2.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline4.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+.left[![:scale 37%; position:relative; top: 5vh; left: 5vh](images/bdi/map1.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+.left[![:scale 86.2%; position:relative; top: 5vh; left: 5vh](images/bdi/map2.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+.left[![:scale 40%; position:relative; top: 8vh; left: 5vh](images/calcul/di.png)]
+
+--
+
+<div style="position: relative; top: -9vh; left: 22vh">$$d_{i,t} = log_{10}(\frac{P(occ)_{i,t}}{P(occ)_{i,t-1}})$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+.left[![:scale 86.2%; position:relative; top: 5vh; left: 5vh](images/bdi/map2.png)]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+.left[![:scale 28%; position:relative; top: 3vh; left: 10vh](images/calcul/mean_sp2.png)]
+
+--
+
+<div style="position: relative; top: -25vh; left: 22vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} \bar{d}_{i,t}$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+<br><br>
+.center[.font140[Pour j espèces:]]
+<br>
+<div style="position: relative; left: 5vh">$$\bar{d}_t = \frac{1}{j} \sum_{k=1}^{j} \bar{d}_{k,t}$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline4.png)]
+
+<br>
+<div style="position: relative; left: 7vh">$$I_t = I_{t-1} 10^{\bar{d}_t}$$</div>
+
+<br><br><br><br>
+
+- Moyenne géométrique de 0.5 et 2 = 1
+<br>
+
+- Moyenne arythmétique de 0.5 et 2 = 1.25
+
+---
+
+# Limites
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- Approche grossière
+
+--
+
+- Oiseaux et arbres seulement
+
+--
+
+- Problèmes de détection des observations (fausses présences et fausses absences)
+
+--
+
+Séquences de colonisation et extinction erronées
+
+---
+
+# Avancement
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- Harmonisations des données
+
+--
+
+- Librairie R pour les SDMs en développement
+
+--
+
+- Librairie R pour le calcul de l'indice en développement
+
+---
+
+# Pour la suite
+
+- Corrélation entre variation biodiversité et pressions anthropiques
+
+--
+
+- Partionner entre les colonisations et les extinctions
+
+--
+
+- Étudier les propriétés de l'indice, notamment l'incertitude
