@@ -59,27 +59,135 @@ class: middle, title-slide
 # Les objectifs d'Aichi 2020
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Objectifs d'Aichi 2020
+<br><br>
+.center[![:scale 60%](images/cbd/decade.png)]
+<br><br>
 
 --
 
-- _Global Biodiversity Outlook_
+.pull-left[![:scale 80%; position: relative; left: 4vh](images/cbd/aichi/aichi_cbd.png)]
 
 --
 
-- Déclin s'accélère et actions insuffisantes
+.pull-right[![:scale 90%; position: relative](images/cbd/cbd.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![position: fixed](images/cbd/aichi/aichi.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![position: fixed](images/cbd/aichi/aichi1.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![](images/cbd/aichi/aichi2.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![](images/cbd/aichi/aichi3.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![](images/cbd/aichi/aichi4.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br>
+
+.center[![](images/cbd/aichi/aichi5.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.pull-left[![:scale 90%; position: relative; left: 4vh; border: 2px solid #555](images/cbd/gbo5.png)]
 
 --
 
-- IPBES, FAO, etc.
+<br><br>
+
+.pull-right[![:scale 80%; position: relative; left: 2vh](images/cbd/aichi/aichi_fail.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.pull-left[![:scale 90%; position: relative; left: 4vh; border: 2px solid #555](images/cbd/gbo5.png)]
+
+.pull-right[
+  <br><br>
+- .font120[Perte de biodiversité s'accélère]
+  
+- .font120[Actions insuffisantes]
+]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.pull-left[![:scale 79%; position: relative; left: 4vh](images/cbd/fao2020.png)]
 
 --
 
-- Importance des suivis de biodiversité
+.pull-right[![:scale 90%; position: relative; border: 2px solid #555](images/cbd/ipbes.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+
+> **.font120[Plus d'actions pour ralentir la perte de biodiversité]**
+
+--
+
+<br><br>
+
+>**.font120[Importance des suivis de biodiversité]**
 
 ???
 
 C'est cette année que se terminait la décennie pour la biodiversité qui a été déclarée par l'ONU en 2011. Cette décennie servait à promouvoir le plan stratégique 2011-2020 et les objectifs d'Aichi, tous deux adopté par les parties de la Convention sur la Diversité Biologique, un traité international signé par plus de 160 pays en 1992 qui vise la conservation de la biodiversité. Les objectifs d'Aichi représente 20 objectifs visant à réduire la perte de biodiversité à l'échelle globale. Dnas le cadre de la dernière année de la décennie, les parties de la CBD a sorti un rapport afin d'évaluer l'atteinte des objectifs d'Aichi. Le rapport conclu qu'aucun des objectifs n'ont été atteints. Ce rapport conclut que la perte de biodiversité s'accélère et que les actions de conservation ne sont pas assez importantes pour ralentir ce déclin. Cette conclusion est également partagé dans les rapports de l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) et de la Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques (IPBES), qui est à la biodiversité ce que le Groupe d'experts intergouvernemental sur l'évolution du climat (IPCC) est au climat. Le message général de ces rapports est donc qu'il faut en faire beaucoup plus pour protéger la biodiversité. Tous ces organismes rappellent également l'importance d'implémenter des suivis de biodiversité à l'échelle régional, national et sub-national afin d'avoir de mieux mesurer les changements de biodversité et mieux identifier les besoins en conservation.
+
 ---
 
 # Défis des suivis de biodiversité
