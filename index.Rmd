@@ -10,6 +10,7 @@ output:
     css: ["default", "conf/css/style.css", "conf/css/fonts.css"]
     nature:
       beforeInit: ["conf/js/gifffer.min.js", "conf/js/style-macros.js"]
+      countIncrementalSlides: false
 ---
 
 ```{r setup, echo = F}
@@ -193,27 +194,85 @@ C'est cette année que se terminait la décennie pour la biodiversité qui a ét
 # Défis des suivis de biodiversité
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Difficulté à définir la biodiversité
+--
+
+![:scale 29%; position: relative; left: 6vh; top: 2vh](images/biodiv/biodiv_dim/dna.png)
 
 --
 
-- Interprétation des changements de biodiversité
+![:scale 30%; position: relative; left: 38vh; top: -21vh](images/biodiv/biodiv_dim/composition.png)
 
 --
 
-  - Ex: local vs global
+![:scale 45%; position: relative; left: 4vh; top: -18vh](images/biodiv/biodiv_dim/interactions.png)
 
 --
 
-- Altération vs perte
+![:scale 20%; position: relative; left: 48vh; top: -35vh](images/biodiv/biodiv_dim/services.png)
 
---
+---
 
-- Manque de donnéess
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
---
+<br><br>
+.center[![:scale 80%](images/biodiv/glo_loc/global.png)]
 
-- Harmonisations des données
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/glo_loc/local.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/glo_loc/local_services.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/loss_alter/loss_alter1.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/loss_alter/loss_alter2.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/loss_alter/loss_alter3.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+.center[![:scale 80%](images/biodiv/loss_alter/loss_alter4.png)]
+
+---
+
+# Défis des suivis de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+.center[![:scale 75%](images/biodiv/daskalova2020.png)]
 
 ???
 
@@ -224,29 +283,136 @@ Les suivis de biodiversité ne sont pas vraiment simple à faire. Le simple fait
 # Les variables essentielles de biodiversité
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Harmoniser les données sur la biodiversité
+<br><br><br><br>
+.center[![:scale 75%](images/ebv/harmoniser/harm1.png)]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br><br><br>
+.center[![:scale 75%](images/ebv/harmoniser/harm2.png)]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.pull-left[
+  ![:scale 60%; position: relative; left: 12vh](images/ebv/cond/cond1.png)
+]
 
 --
 
-- Six classes de VEBs (avec schéma) et chaque classes représente plusieurs variables:
-  - Génétique
-  - Population d'espèce
-  - Traits d'espèce
-  - Composition communauté
-  - Structure d'écosystème
-  - Fonctions d'écosystème
+.pull-right[
+  ![:scale 40%; position: relative; left: 3vh](images/ebv/cond/cond2.png)
+
+  ![:scale 40%; position: relative; left: 15vh](images/ebv/cond/cond3.png)
+]
 
 --
 
-- Population d'espèce:
+.center[
+  ![:scale 55%; position: relative; left: -13vh; top: -13vh](images/ebv/cond/cond4.png)
+]
 
---
+---
 
-  - Modélisation (Modèles de distribution d'espèces)
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
---
+<br>
 
-- Pont entre données brutes et indicateurs de biodiversité
+.center[
+  ![:scale 86%](images/ebv/class/class1.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class2.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class3.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class4.png)
+]
+
+---
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class5.png)
+]
+
+---
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class6.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 86%](images/ebv/class/class7.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 45%](images/ebv/cube/cube.png)
+]
+
+---
+
+# Les variables essentielles de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br><br>
+
+.center[
+  ![:scale 85%](images/ebv/cube/cube2.png)
+]
 
 ???
 
