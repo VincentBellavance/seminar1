@@ -1,6 +1,6 @@
 # First seminar
 
-![Build](https://github.com/VincentBellavance/seminar1/workflows/Build/badge.svg) [![html](https://img.shields.io/badge/read-html-blue)](https://VincentBellavance.github.io/seminar1/#1) [![pdf](https://img.shields.io/badge/read-pdf-yellow)](https://VincentBellavance.github.io/seminar1/slides.pdf)
+![Build](https://github.com/VincentBellavance/seminar1/workflows/Build/badge.svg) [![html](https://img.shields.io/badge/read-html-blue)](https://VincentBellavance.github.io/seminar1/#1)
 
 Presentation of my first master's seminar using template from [Will Vieira](https://github.com/willvieira) (see https://github.com/willvieira/talkTemplatehttps://github.com/willvieira/talkTemplate)
 
@@ -12,13 +12,13 @@ Presentation of my first master's seminar using template from [Will Vieira](http
 
 ## TODO
 
-- [ ] Schématiser la mise en contexte
-  - [ ] Grands rapports
-    - [ ] Développer plus les objectifs d'Aichi 2020
-    - [ ] 20 objectifs en 5 catégories, parler de la catégorie de l'état de la biodiversité
-  - [ ] Biodiversité
-  - [ ] EBV
-  - [ ] Indicateurs
+- [X] Schématiser la mise en contexte
+  - [X] Grands rapports
+    - [X] Développer plus les objectifs d'Aichi 2020
+    - [X] 20 objectifs en 5 catégories, parler de la catégorie de l'état de la biodiversité
+  - [X] Biodiversité
+  - [X] EBV
+  - [X] Indicateurs
   - [ ] Monde (Ajouter Leung 2020)
   - [ ] Canada
   - [ ] Qc
