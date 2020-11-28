@@ -423,30 +423,150 @@ C'est là qu'entre en jeu les variables de biodiversité essentielles. Ces varia
 # Les indicateurs de biodiversité
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Représenter changements de manière simplifiés
+<br>
+
+.center[
+  ![:scale 80%](images/indicators/indicator1.png)
+]
+
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 80%](images/indicators/indicator2.png)
+]
+
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[
+  Très utiles pour communiquer aux **décideurs** et au **grand public**
+]
 
 --
 
-- Sous forme de série temporelle
+.pull-left[
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/state.png)
+
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/objectives.png)
+]
 
 --
 
-- Informer les décideurs et le public
+.pull-right[
+.font120[
+- Compréhensible
+
+<br>
+- Communicable
+
+<br>
+- Mesure précise
+
+]
+]
+
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[
+  Très utiles pour communiquer aux **décideurs** et au **grand public**
+]
+
+
+.pull-left[
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/state.png)
+
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/objectives.png)
+]
+
+
+.pull-rigth[
+
+  <br><br><br>
+
+  ![:scale 40%; position: relative; left: 6vh](images/indicators/time_series1.png)
+]
+
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[
+  Très utiles pour communiquer aux **décideurs** et au **grand public**
+]
+
+
+.pull-left[
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/state.png)
+
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/objectives.png)
+]
+
+
+.pull-rigth[
+
+  <br><br><br>
+
+  ![:scale 40%; position: relative; left: 6vh](images/indicators/time_series2.png)
+]
+
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.pull-left[
+  ![:scale 85%; position: relative; left: 5vh](images/cbd/cbd.png)
+]
+
+.pull-right[
+  ![:scale 60%; position: relative; left: 5vh](images/cbd/aichi/aichi_cbd.png)
+]
 
 --
+<br><br>
 
-- Doit être facilement compréhensible et basé sur des données disponibles
+.center[
+  .font160[Des **dizaines** d'indicateurs]
+]
 
+---
+
+# Les indicateurs de biodiversité
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+**.font120[Red List Index:]**<br>
+  .font120[Risques d'extinction globaux de groupes d'espèces]
+
+<br>
 --
 
-- Plus d'une soixantaine:
-  - LPI
-  - RLI
-  - WBI
+**.font120[Wild Bird Index:]**<br>
+  .font120[Tendances moyennes dans les tailles de population d'espèces d'oiseaux]
+
+<br>
+--
+
+**.font120[Living Planet Index:]**<br>
+  .font120[Tendances moyennes dans les tailles de population d'espèces de vertébrés]
 
 ???
 
-Les indicateurs de biodiversité sont des indices qui représentent l'état de la biodiversité de manière simplifiée. Comme la biodiversité est un concept très large, ces indices doivent viser un aspect précis ce celle-ci. Ces indicateurs vont être représentés sous forme de série temporelle, ce qui permet de visualiser l'évolution de la mesure au fil du temps. Ils sont très utiles pour informer les décideurs et le public sur l'atteinte d'une cible de conservation et simplement sur l'état de la biodiversité. Elles permettent également de voir si des politiques et des actions ayant pour but la conservation de la biodiversité ont eu les impacts escomptés. Pour cela, l'indicateur doit être facilement compréhensible et communicable et doit bien répondre aux changements. L'indicateurs doit également être basé sur des données disponibles si on veut voir une évolution. La mise en place par la Convention sur la Diversité Biologique des objectifs pour la biodiversité de 2010 suivi des objectifs d'Aichi 2020 a grandement accélérer le développement de plusieurs indicateurs. Il en existe aujourd'hui plus de 60. Le Red List Index, le Wild Bird Index et le Living Planet Index font partis des indicateurs les mieux développés et les plus connus. RLI: Risque d'extinction des espèces. WBI: LPI pour les oiseaux
+Les indicateurs de biodiversité sont des indices qui représentent l'état de la biodiversité de manière simplifiée. Comme la biodiversité est un concept très large, ces indices doivent viser un aspect précis de celle-ci. Ces indicateurs vont être représentés sous forme de série temporelle, ce qui permet de visualiser l'évolution de la mesure au fil du temps. Ils sont très utiles pour informer les décideurs et le public sur l'atteinte d'une cible de conservation et simplement sur l'état de la biodiversité. Elles permettent également de voir si des politiques et des actions ayant pour but la conservation de la biodiversité ont eu les impacts escomptés. Pour cela, l'indicateur doit être facilement compréhensible et communicable et doit bien répondre aux changements. L'indicateurs doit également être basé sur des données disponibles si on veut voir une évolution. La mise en place par la Convention sur la Diversité Biologique des objectifs pour la biodiversité de 2010 suivi des objectifs d'Aichi 2020 a grandement accélérer le développement de plusieurs indicateurs. Il en existe aujourd'hui plus de 60. Le Red List Index, le Wild Bird Index et le Living Planet Index font partis des indicateurs les mieux développés et les plus connus. RLI: Risque d'extinction des espèces. WBI: LPI pour les oiseaux
 ---
 
 # Le Living Planet Index
