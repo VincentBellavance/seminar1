@@ -595,60 +595,201 @@ Les indicateurs de biodiversité sont des indices qui représentent l'état de l
 # La biodiversité à l'échelle globale
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Diminution moyenne de la taille des populations plus importantes en **Afrique (-65%)** et surtout en **Amérique du Sud (-94%...)**
+.center[
+  ![:scale 95%](images/global/lpi.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/na.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/europe.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/africa.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/sa.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![](images/global/sa.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+- .font180[Déclin globale]
 
 --
 
+<br>
 
-- **Amérique du Nord (-33%)** et **Europe/nord de l'Asie (-24%)**
+- .font180[Mais...]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 60%](images/global/dornelas2019.png)
+]
+
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 65%](images/global/leung2017.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 70%](images/global/leung2020.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.font150[Message plus **nuancé**:]
+
+- .font150[**Grande variabilité** dans les **régions** et les groupes **taxonomiques**]
 
 --
 
+.font150[Oiseaux et mammifères aquatiques + oiseaux terrestres de **l'Indo-Pacifique**:]
 
-- Résultats nuancés par certaines recherches (Daskalova 2018):
-  - Pop déclin = Pop augmentation
-  - Amphibiens = Seul à décliner
+- .font150[**Déclin significatif**]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 65%](images/global/rli.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+<br>
+
+***Amérique du Nord et Europe**
+
+.center[
+  ![:scale 75%](images/global/wbi.png)
+]
+
+---
+
+# La biodiversité à l'échelle globale
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+- .font150[Biodiversité **diminue**, mais **difficile** de faire un **portrait global**]
 
 --
 
-- le RLI: **Risques d'extinction augmentent** de plus en plus pour tous les taxons étudiés
+<br>
 
---
-
-- Le WBI: Diminution d'environ **20% pour les espèces d'oiseaux**
-  - **40% pour les oiseaux spécialistes**
-
-???
-
-RLI: Taxons étudiés: Amphibiens, Coraux, Oiseaux, Mammifères, Cycadales (ordre de gymnospermes qui vit dans les tropiques)
-
---
-
-- Bien qu'on sait que la biodiversité à l'échelle globale semble diminuer, c'est difficile d'avoir un portrait global sans biais. Les suivis natonaux permettent d'avoir un meilleur portrait à plus petite échelle.
+- .font150[Les **suivis nationaux** sont nécessaires]
 
 ---
 
 # La biodiversité au Canada
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- LPI: Tendance **relativement stable** (6%)
+<br><br>
 
---
+.center[
+  ![:scale 85%](images/canada/lpi_can.png)
+]
 
-- RLI: Également **stable** (risque d'extinction augmente de 0.8%)
+---
 
---
+# La biodiversité au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- WBI, Oiseaux en déclin:
-  - Oiseaux de rivage **(-40%)**
-  - Oiseaux de prairies **(-57%)**
-  - Insectivores aériens **(-59%)**
+<br>
 
---
+.center[
+  ![:scale 85%](images/canada/iec.png)
+]
 
-- WBI, Oiseaux en augmentation:
-  - Sauvagine **(150%)**
-  - Oiseaux de proie **(110%)**
+---
+
+# La biodiversité au Canada
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+<br>
+
+.center[
+  ![:scale 95%](images/canada/birds.png)
+]
 
 ???
 
@@ -659,24 +800,25 @@ Plusieurs indicateurs sont disponibles pour le Canada. En général, la biodiver
 # La biodiversité au Québec
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Aucun suivi de biodiversité
+- .font120[Aucun suivi de biodiversité]
 
 --
 
-- CDPNQ: espèces à statut
+- .font120[Centre de données sur le patrimoine naturel du Québec : espèces à statut]
 
 --
 
-- Manque de données
+- .font120[Manque de données (e.g. suivis à long terme)]
 
 --
 
-- Orientation du gouvernement
+- .font120[Orientation du gouvernement]
+
+  >.font120[Évaluation de la biodiversité et élaboration d’un réseau de suivi]
 
 ???
 
-À l'échelle du Québec, toutefois, il n'existe pas, à pas connaissance, de suivi de biodiversité semblable à ceux du Canada (LPI, RLI, WBI, etc.). C'est donc difficile, voir impossible, présentement, de dire comment la biodiversité à changé au Québec dans les dernières décennies. Le Centre de données sur le patrimoine naturel du Québec (CDPNQ) est un des acteurs importants du Québec dans le suivi de la biodiversité, mais son mandat est principalement relié (mais ne se limite pas) le suivi des espèces à statut. Le manque de données, comme les suivis de populations à long terme pour calculer des indices comme le LPI, nuit fortement à toutes initiatives de suivi de biodiversité. Il est important de mettre en place de tel suivi puisque l'évaluation de la biodiversité et l’élabo-
-ration d’un réseau de suivi fait partie des orientations du gouvernement du Québec en matière de diversité écologique.
+À l'échelle du Québec, toutefois, il n'existe pas, à pas connaissance, de suivi de biodiversité semblable à ceux du Canada (LPI, RLI, WBI, etc.). C'est donc difficile, voir impossible, présentement, de dire comment la biodiversité à changé au Québec dans les dernières décennies. Le Centre de données sur le patrimoine naturel du Québec (CDPNQ) est un des acteurs importants du Québec dans le suivi de la biodiversité, mais son mandat est principalement relié (mais ne se limite pas) le suivi des espèces à statut. Le manque de données, comme les suivis de populations à long terme pour calculer des indices comme le LPI, nuit fortement à toutes initiatives de suivi de biodiversité. Il est important de mettre en place de tel suivi puisque l'évaluation de la biodiversité et l’élaboration d’un réseau de suivi fait partie des orientations du gouvernement du Québec en matière de diversité écologique.
 ---
 
 # Questions
