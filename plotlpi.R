@@ -18,7 +18,7 @@ plot_theme <- theme_classic() +
 
 p <- ggplot(data = lpi_data[lpi_data$org_event == 1449,], aes(x = year_obs)) +
   geom_point(aes(y = obs_value), col = "black", lwd = 4) +
-  labs(title = "Poissons marins pop1", y = "Abondance", x = "Années") +
+  labs(title = "Population 1", y = "Abondance", x = "Années") +
   coord_cartesian(ylim = c(800, 8800)) +
   plot_theme
 
@@ -29,7 +29,7 @@ ggsave(file="images/lpi/plie_data.svg", plot=p, width=10, height=8)
 
 p <- ggplot(data = lpi_data[lpi_data$org_event == 12306,], aes(x = year_obs)) +
   geom_point(aes(y = obs_value), col = "black", lwd = 4) +
-  labs(title = "Mammifères marins pop1", y = "Abondance", x = "Années") +
+  labs(title = "Population 2", y = "Abondance", x = "Années") +
   coord_cartesian(ylim = c(0, 101)) +
   plot_theme
 
@@ -54,7 +54,7 @@ mod1_df[,"obs_value"] <- log10(mod1_df[,"obs_value"])
 p <- ggplot(data = mod1_df, aes(year_obs)) +
   geom_line(aes(y = log_obs), col = "black", lwd = 1.2) +
   geom_point(aes(y=obs_value), col = "red", lwd = 4, alpha = 0.5) +
-  labs(title = "Poissons marins pop1", y = "log10(abondance)", x = "Années") +
+  labs(title = "Population 1", y = "Abondance", x = "Années") +
   coord_cartesian(ylim = c(0,5)) +
   plot_theme
 
@@ -76,7 +76,7 @@ mod2_df[,"obs_value"] <- log10(mod2_df[,"obs_value"])
 p <- ggplot(data = mod2_df, aes(year_obs)) +
   geom_line(aes(y = log_obs), col = "black", lwd = 1.2) +
   geom_point(aes(y= obs_value), col = "red", lwd = 4, alpha = 0.5) +
-  labs(title = "Mammifères marins pop1", y = "log10(abondance)", x = "Années") +
+  labs(title = "Population 2", y = "Abondance", x = "Années") +
   coord_cartesian(ylim = c(0,5)) +
   plot_theme
 
@@ -93,7 +93,7 @@ colnames(mod1_df)[4] <- "growthrates"
 
 p <- ggplot(data = mod1_df, aes(year_obs)) +
   geom_line(aes(y = growthrates), col = "black", lwd = 1.2) +
-  labs(title = "Poissons marins pop1", y = "log10(taux de croissance)", x = "Années") +
+  labs(title = "Population 1", y = "Taux de croissance", x = "Années") +
   coord_cartesian(ylim = c(-0.15, 0.1)) +
   plot_theme
 
@@ -107,7 +107,7 @@ colnames(mod2_df)[4] <- "growthrates"
 
 p <- ggplot(data = mod2_df, aes(year_obs)) +
   geom_line(aes(y = growthrates), col = "black", lwd = 1.2) +
-  labs(title = "Mammifères marins pop1", y = "log10(taux de croissance)", x = "Années") +
+  labs(title = "Population 2", y = "Taux de croissance", x = "Années") +
   coord_cartesian(ylim = c(-0.15, 0.1)) +
   plot_theme
 
@@ -329,7 +329,7 @@ global[,c("mean_gr", "se")] <- do.call(rbind,
 
 p <- ggplot(data = global, aes(year_obs)) +
   geom_line(aes(y = mean_gr), col = "black", lwd = 1.2) +
-  labs(title = "Toutes les populations", y = "log10(tx croissance) moyen", x = "Années") +
+  labs(title = "Toutes les populations", y = "Taux de croissance moyen", x = "Années") +
   coord_cartesian(ylim = c(-0.15, 0.1)) +
   plot_theme
 

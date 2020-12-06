@@ -11,6 +11,7 @@ output:
     nature:
       beforeInit: ["conf/js/gifffer.min.js", "conf/js/style-macros.js"]
       countIncrementalSlides: false
+      slideNumberFormat: "%current%" 
 ---
 
 ```{r setup, echo = F}
@@ -47,7 +48,7 @@ class: middle, title-slide
 
 <hr width="60%" align="left" size="0.3" color="#33638d"></hr>
 
-## Un indice de biodiversité pour le Québec
+## Un indicateur de biodiversité du Québec
 
 ### Vincent Bellavance
 
@@ -217,7 +218,6 @@ Comme les réseaux d'observations et les programmes de suivis sont encore plutô
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 <br>
-
 .pull-left[
 .font120[**Terrestres:**]
 
@@ -230,20 +230,20 @@ Comme les réseaux d'observations et les programmes de suivis sont encore plutô
 
 .font120[**Marins:**]
 
-- La pêche
+- .font120[La pêche]
 ]
 
 --
 
 .pull-right[
-.font120[**Extinctions:**]
+.font120[**Déclins:**]
 
 .font120[
-- destruction d’habitats
-- surexploitation
-- pollution
-- introduction d’espèces exotiques
-- changements climatiques
+- Destruction d’habitats
+- Surexploitation
+- Pollution
+- Introduction d’espèces exotiques
+- Changements climatiques
 ]
 ]
 ---
@@ -294,7 +294,7 @@ Il nous manque encore beaucoup de connaissances pour avoir un portrait complet e
 
 
 .font120[
-- Apport de la biodiversité aux populations
+- Apport de la biodiversité aux populations humaines
 ]
 
 ???
@@ -453,24 +453,18 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 <br>
 
-**.font120[Indice liste rouge:]**<br>
+**.font120[Indice Liste Rouge (Red List Index):]**<br>
   .font120[Risques d'extinction globaux de groupes d'espèces]
 
 <br>
 --
 
-**.font120[Indice oiseaux sauvages:]**<br>
-  .font120[Tendances moyennes dans les tailles de population d'espèces d'oiseaux]
-
-<br>
---
-
-**.font120[Indice planète vivante:]**<br>
+**.font120[Indice Planète Vivante (Living Planet Index):]**<br>
   .font120[Tendances moyennes dans les tailles de population d'espèces de vertébrés]
 
 ---
 
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 .font120[
@@ -488,12 +482,12 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 --
 
 .font120[
-- Peut-être caculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
+- Peut-être calculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
 ]
 
 ---
 
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[**Suivi de populations**]
@@ -516,7 +510,7 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 ---
 
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[**Modèles généralisés additifs**]
@@ -531,14 +525,10 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 ---
 
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[**Taux de croissance de chaque population**]
-
-<div style="position: relative; left: -9vh">$$d_t = log_{10}(\frac{N_t}{N_{t-1}}), \;\; N = abondance$$</div>
-
---
 
 .pull-left[
   ![:scale 95%](images/lpi/plie_gr.svg)
@@ -550,60 +540,20 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 ---
 
-# Indice planète vivante
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-- .font120[**Taux de croissance moyen de chaque taxon par système**]
-
-<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \: de \: pop$$</div>
-
---
-
-.pull-left[
-  ![:scale 95%](images/lpi/marine_fish_gr.svg)
-]
-
---
-
-.pull-right[
-  ![:scale 95%](images/lpi/marine_mamm_gr.svg)
-]
-
----
-
-# Indice planète vivante
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-- .font120[**Taux de croissance moyen par système**]
-
-<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \: de \: pops$$</div>
-
-.pull-left[
-  ![:scale 95%](images/lpi/marine_gr.svg)
-]
-
---
-
-.pull-right[
-  ![:scale 95%](images/lpi/terrestre_gr.svg)
-]
-
----
-
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[**Taux de croissance moyen global**]
 
-<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \: de \: pops$$</div>
+<br>
 
 .center[
-  ![:scale 75%](images/lpi/global_gr.svg)
+  ![:scale 85%](images/lpi/global_gr.svg)
 ]
 
 ---
 
-# Indice planète vivante
+# Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[**Calcul de l'indice**]
@@ -738,59 +688,9 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 
 <br>
 
-.center[
-  ![:scale 70%](images/global/leung2020_2.png)
-]
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.center[
-  ![:scale 70%](images/global/leung2020_3.png)
-]
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.center[
-  ![:scale 70%](images/global/leung2020_4.png)
-]
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.center[
-  ![:scale 70%](images/global/leung2020_5.png)
-]
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
 .font150[Message plus **nuancé**:]
 
 - .font150[**Grande variabilité** dans les **régions** et les groupes **taxonomiques**]
-
---
-
-.font150[Oiseaux et mammifères aquatiques + oiseaux terrestres de **l'Indo-Pacifique**:]
-
-- .font150[**Déclin significatif**]
 
 ---
 
@@ -802,17 +702,6 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 
 .center[
   ![:scale 65%](images/global/rli.png)
-]
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-.font120[**Indice oiseaux sauvages**: Amérique du Nord et Europe]
-
-.center[
-  ![:scale 75%](images/global/wbi.png)
 ]
 
 ---
@@ -861,7 +750,7 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 # Les indicateurs au Canada
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-.font120[**États des oiseaux du Canada**]
+.font120[**États des oiseaux du Canada (2019)**]
 
 <br>
 
@@ -873,7 +762,7 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 
 C'est donc important d'avoir des indicateurs qui puissent se décortiquer afin de bien identifier les régions et les taxons qui sont réellement en déclin et de faire un meilleur portrait de l'ensemble de la siatuation
 
-Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessairement les utiliser lorsqu'on veut parler de la biodiversité au Québec
+Le Canada a plusieurs indicateurs de biodiversité et c'est bien parce qu'on peut voir que les changements de biodiversité documenté par les indicateurs sont très différents de ceux à l'échelle global. Ça permet de mieux identifier les taxons et les régions qui ont besoin de mesures de cnservation pour améliorer leurs situations. Par contre, si on veut avoir une idée de l'état de la biodiversité à l'échelle de la province, on ne peut pas nécessairement les utiliser puisqu'il y a également une grande variabilité dans les changements de biodiversité.
 
 ---
 
@@ -942,6 +831,9 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 .center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline2.png)]
 
+???
+
+Base de données commencé en 2019, toujours en développement, notamment pour ce qui est de la validation des données et de la taxonomie, et de l'injection de données. 
 ---
 
 # Méthodes
@@ -958,7 +850,7 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 - Proviennent de **plusieurs sources** dont:
   - Gouvernementales
   - Bases de données ouvertes (e.g. GBIF)
-  - Science citoyenne
+  - Science citoyenne (e.g. eBird)
 ]
 --
 .font110[
@@ -972,14 +864,9 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 .center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline3.png)]
 
----
+???
 
-# Méthodes
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
-
-.left[![:scale 40%; position:relative; top: 5vh; left: 2vh](images/sdm/sdm1.png)]
+Une librairie R qui est présentement développée par le laboratoire, pour calculer les aires de distribution des espèces présentes dans Atlas. Je ne m'occuperai pas spécifiquement des aires de distribution, mais je vais utiliser les aires de distribution dans le pipeline pour automatiser le calcul de l'indice.
 
 ---
 
@@ -988,21 +875,48 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 .center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
 
-.left[![:scale 61.5%; position:relative; top: 5vh; left: 2vh](images/sdm/sdm2.png)]
+.left[![:scale 50%; position:relative; top: 3vh; left: 5vh](images/sdm/sdm1.png)]
 
+???
+
+Ce modèle est un exemple de ce qui a été fait jusqu'à présent avec la librarie mapSpecies.
 --
 
 <div style="float: right; position: relative; font-size: 120%; top: -21vh; left: -8vh;">3km x 3km</div>
 <div style="float: right; position: relative; font-size: 120%; top: -17vh; left: 9vh;">(312000 cellules)</div>
 
+???
+
+Pour l'instant, le Québec est divisé en 312000 cellules de 3km par 3km. 
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
+
+.left[![:scale 50%; position:relative; top: 3vh; left: 5vh](images/sdm/sdm2.png)]
+
+<div style="float: right; position: relative; font-size: 120%; top: -21vh; left: -8vh;">3km x 3km</div>
+<div style="float: right; position: relative; font-size: 120%; top: -17vh; left: 9vh;">(312000 cellules)</div>
+
+???
+
+Chaque cellule représente une probabilité d'occurrence qui va de 0 à 1. 
 --
 
 .right[![:scale 18%; position:relative; top: -9vh; left: 7vh](images/sdm/enviro.png)]
 
+???
+
+Les aires de distribution sont modélisées en utilisant les conditions environnementales comme la température et les précipitations. On utilise également le temps (les années) comme variable explicative. 
 --
 
 .right[![:scale 19%; position:relative; top: -20vh; left: -5vh](images/sdm/enviro2.png)]
 
+???
+
+Donc, à la place de faire un modèle différent par année, on souhaite faire un seul modèle qui prend en compte le temps, ce qui va permettre de lisser la distribution de l'espèce d'année en année, un peu comme dans la méthode où on utilise les GAMs pour venir lisser les abondances d'espèces.
 ---
 
 # Méthodes
@@ -1010,21 +924,53 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 .center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline4.png)]
 
+???
+
+Vient ensuite le calcul de l'indice. Je développe présentement la librairie pour faire les calculs sur R. 
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 .center[
-  ![:scale 55%](images/bdi/bobo.svg)
-  ![:scale 55%](images/bdi/jay.svg)
+  ![:scale 63%](images/bdi/bobo.svg)
+  ![:scale 63%; position: relative; top: -5vh](images/bdi/jay.svg)
 ]
+
 ---
 
 # Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[**Somme des probabilités d'occurrence**]
+.font120[**Calcul de l'aire de distribution**]
+
+.center[
+  ![:scale 60%](images/bdi/calc_aire1.svg)
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Calcul de l'aire de distribution**]
+
+.center[
+  ![:scale 60%](images/bdi/calc_aire2.svg)
+]
+
+--
+
+<br>
+
+<div style="position: relative; left: -6vh">$$(3km \times 3km) \times 50\% = 4.5km^2$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Calcul de l'aire de distribution**]
 
 <br>
 
@@ -1041,7 +987,7 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 # Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[**Taux de croissance des aires de chaque espèce**]
+.font120[**Taux de croissance des aires de chaque espèce**]
 
 <div style="position: relative; left: -13vh">$$d_t = log_{10}(\frac{A_t}{A_{t-1}}), \;\; A = aires \; de \; distribution$$</div>
 
@@ -1060,9 +1006,9 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 # Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[**Taux de croissance moyen des aires**]
+.font120[**Taux de croissance moyen des aires**]
 
-<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \; d'espece$$</div>
+<div style="position: relative; left: -9vh">$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \; d'esp\grave{e}ces$$</div>
 
 --
 
@@ -1075,7 +1021,7 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 # Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[**Calcul de l'indice**]
+.font120[**Calcul de l'indice**]
 
 <div style="position: relative; left: 5vh;">$$I_t = I_{t-1} 10^{\bar{d}_t}$$</div>
  
@@ -1090,18 +1036,110 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 ---
 
-# Limites
+# Méthodes
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[Approche grossière]
+.font120[**Calcul des colonisations et extinctions**]
 
 --
 
-- .font120[Oiseaux seulement]
+.pull-left[
+  ![](images/bdi/col1.svg)
+]
+
+--
+
+<br><br>
+
+.pull-right[
+  .font120[Colonisation de 11% de la cellule]
+]
+
+--
+
+.pull-left[
+  ![position: relative; top: 30vh](images/bdi/ext1.svg)
+]
+
+--
+
+<br><br><br><br><br><br><br><br>
+
+.pull-right[
+  .font120[Extinction de 15% de la cellule]
+]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Calcul des colonisations et extinctions**]
+
+<br>
+
+<div style="padding: 0em 0em 0em 0em !important; position: relative; left: -20vh">$$d_t = log_{10}(\frac{C_t}{A_{t-1}}), \;\; C_t = somme \; des \; colonisations$$</div>
+
+--
+
+<br>
+
+<div style="padding: 0em 0em 0em 0em !important; position: relative; left: -20vh">$$d_t = log_{10}(\frac{E_t}{A_{t-1}}), \;\; E_t = somme \; des \; extinctions$$</div>
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Calcul selon différentes régions**]
+
+<br>
+
+???
+
+L'indice serait calculé globalement pour le Québec, mais il va être calculé également selon différentes régions. 
+
+--
+
+- .font120[Régions administratives]
+
+- .font120[Zones de végétation]
+
+- .font120[Domaines bioclimatiques]
+
+---
+
+# Méthodes
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.font120[**Calcul pour différents groupes d'oiseaux**]
+
+.center[
+  ![:scale 80%](images/bdi/birds_groups.svg)
+]
+
+???
+
+De calculer pour les oiseaux seulement peut être une limite de cet indicateur, mais les oiseaux sont des très bons indicateurs des perturbations parce qu'ils répondent rapidement aux changements.
+
+---
+
+# Limites
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+- Seulement pour les oiseaux
+
+???
+
+Les oiseaux répondent rapidement aux changements et sont de excellents indicateurs de la santé d'un écosystèmes
 
 --
 
 - .font120[Problèmes de détection des observations (fausses présences et fausses absences)]
+
+???
+
+Peut mener à des fausses colonisations ou fausses extinctions
 
 --
 
@@ -1116,7 +1154,11 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 --
 
-- .font120[Permet de calculer un indice pour les endroits où peu de données disponibles]
+- .font120[Permet de calculer un indice pour les endroits où peu de suivis à long terme disponibles]
+
+--
+
+- .font120[Permet de visualiser les changements de biodiversité au niveau spatial]
 
 --
 
@@ -1124,38 +1166,44 @@ Le Canada a plusieurs indicateurs de biodiversité, mais on ne peut pas nécessa
 
 ---
 
-# Avancement
+# Pour la suite
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[Harmonisations des données sur Atlas]
+<br>
 
---
+> .font120[Indicateur de biodiversité qui permet un suivi à long terme]
 
-  - .font120[Validation des données + taxonomies]
+<br>
 
---
-
-- .font120[Librairie R pour les SDMs en développement]
-
---
-
-- .font120[Librairie R pour le calcul de l'indice en développement]
+> .font120[Resterait plusieurs aspects sur lesquels il faut travailler]
 
 ---
 
 # Pour la suite
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- .font120[Partionner entre les colonisations et les extinctions]
+- .font120[Appliquer le modèle de Leung et collab. 2020]
 
---
+.center[
+  ![:scale 70%](images/global/leung2020_3.png)
+]
 
-- .font120[Appliquer le modèle de Leung2020]
+---
 
---
+# Pour la suite
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 - .font120[Étudier les propriétés de l'indice, notamment l'incertitude]
 
 --
 
 - .font120[Corrélation entre variation biodiversité et pressions anthropiques]
+
+---
+
+# Remerciements
+<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+
+.center[
+  ![](images/remerciements.svg)
+]

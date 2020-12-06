@@ -18,7 +18,7 @@ data <- raster::stack("data-raw/sdm_0_4.gri")
 ####################################################
 
 bobo <- data[["Bobolink_0"]]
-bobo_list <- lapply(0:, function(x) {
+bobo_list <- lapply(0:20, function(x) {
   bobo + x*((data[["Bobolink_4"]] - bobo)/20)
 })
 names(bobo_list) <- c(1990:2010)
@@ -32,25 +32,25 @@ names(jay_list) <- c(1990:2010)
 
 ####################################################
 
-svg(filename = "images/bdi/bobo.svg",width = 14, height = 8)
-par(mfrow = c(1,2))
-plot(bobo_list[[1]], zlim=c(0,0.4), main = "Dolichonyx oryzivorus (1990)", legend.width = 2, legend.lab="Probabilité d'occurrence")
-plot(bobo_list[[20]], zlim=c(0,0.4), main = "Dolichonyx oryzivorus (2010)", legend.width = 2, legend.lab="Probabilité d'occurrence")
-dev.off()
-
-
-svg(filename = "images/bdi/jay.svg",width = 14, height = 8)
-par(mfrow = c(1,2))
-plot(jay_list[[1]], zlim=c(0,1), main = "Perisoreus canadensis (1990)", legend.width = 2, legend.lab="Probabilité d'occurrence")
-plot(jay_list[[20]], zlim=c(0,1), main = "Perisoreus canadensis (2010)", legend.width = 2, legend.lab="Probabilité d'occurrence")
-dev.off()
+#svg(filename = "images/bdi/bobo.svg",width = 14, height = 8)
+#par(mfrow = c(1,2))
+#plot(bobo_list[[1]], zlim=c(0,0.4), main = "Dolichonyx oryzivorus (1990)", legend.width = 2, legend.lab="Probabilité d'occurrence")
+#plot(bobo_list[[20]], zlim=c(0,0.4), main = "Dolichonyx oryzivorus (2010)", legend.width = 2, legend.lab="Probabilité d'occurrence")
+#dev.off()
+#
+#
+#svg(filename = "images/bdi/jay.svg",width = 14, height = 8)
+#par(mfrow = c(1,2))
+#plot(jay_list[[1]], zlim=c(0,1), main = "Perisoreus canadensis (1990)", legend.width = 2, legend.lab="Probabilité d'occurrence")
+#plot(jay_list[[20]], zlim=c(0,1), main = "Perisoreus canadensis (2010)", legend.width = 2, legend.lab="Probabilité d'occurrence")
+#dev.off()
 
 ####################################################
 #Somme des rasters
 ####################################################
 
 sum_bobo <- lapply(bobo_list, function(x) {
-  return(sum(x[,,], na.rm = TRUE))
+  return(sum(x[,,], na.rm = TRUE)*9)
 })
 
 bobo_df <- data.frame(year = c(1990:2010), somme = do.call(rbind, sum_bobo))
@@ -58,14 +58,14 @@ bobo_df <- data.frame(year = c(1990:2010), somme = do.call(rbind, sum_bobo))
 p <- ggplot(data = bobo_df, aes(year)) +
   geom_line(aes(y = somme), col = "black", lwd = 1.2) +
   labs(title = "Dolichonyx oryzivorus", y = "Aires de distribution (km2)", x = "Années") +
-  coord_cartesian(ylim = c(10000, 32000)) +
+  coord_cartesian(ylim = c(110000, 280000)) +
   plot_theme
 
 ggsave(file="images/bdi/bobo_sum.svg", plot=p, width=15, height=10)
 
 
 sum_jay <- lapply(jay_list, function(x) {
-  return(sum(x[,,], na.rm = TRUE))
+  return(sum(x[,,], na.rm = TRUE)*9)
 })
 
 jay_df <- data.frame(year = c(1990:2010), somme = do.call(rbind, sum_jay))
@@ -73,7 +73,7 @@ jay_df <- data.frame(year = c(1990:2010), somme = do.call(rbind, sum_jay))
 p <- ggplot(data = jay_df, aes(year)) +
   geom_line(aes(y = somme), col = "black", lwd = 1.2) +
   labs(title = "Perisoreus canadensis", y = "Aires de distribution (km2)", x = "Années") +
-  coord_cartesian(ylim = c(20000, 80000)) +
+  coord_cartesian(ylim = c(190000, 710000)) +
   plot_theme
 
 ggsave(file="images/bdi/jay_sum.svg", plot=p, width=15, height=10)
