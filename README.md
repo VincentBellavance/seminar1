@@ -4,35 +4,12 @@
 
 Presentation of my first master's seminar using template from [Will Vieira](https://github.com/willvieira) (see https://github.com/willvieira/talkTemplatehttps://github.com/willvieira/talkTemplate)
 
-## Abstract
-
-
 ## Take home messages
 
+- The Biodiversity Distribution Index is a biodiversity indicator that is using species distribution to assess biodiversity change in the province of Quebec
 
-## TODO
+- It uses the same methodology as the Living Planet Index, but it uses growthrates of species distribution instead of population growthrates
 
-- [X] Schématiser la mise en contexte
-  - [X] Grands rapports
-    - [X] Développer plus les objectifs d'Aichi 2020
-    - [X] 20 objectifs en 5 catégories, parler de la catégorie de l'état de la biodiversité
-  - [X] Biodiversité
-  - [X] EBV
-  - [X] Indicateurs
-  - [ ] Monde (Ajouter Leung 2020)
-  - [ ] Canada
-  - [ ] Qc
-  - [ ] Bien expliquer le calcul du LPI
-    -[ ] Expliquer ici qu'on mesure tx de croissance/déclin de chaque pop (moyenne géométrique)
-- [ ] Parties méthodes:
-  - [ ] Pour les SDMs:
-    - [ ] Parler du nombre de cellules
-    - [ ] Intensité/Occupancy: Quelles est la mesure, le proxy, comment l'interpréter?
-    - [ ] On utilise le temps pour smoother entre les années, mais ce sont les données de chaque années qui sont utilisées, donc on calcul différence entre pas de temps après pour facteurs anthropo
-  - [ ] Atlas: Quantité de données, nombre d'espèces
-  - [ ] Présenter l'indice et montrer l'interprétaton qu'on en fait
-- [ ] Conclusion: Mieux développer les idées:
-  - [ ] Anthropo: Article de Victor et biais pour eBird puisque données souvent dans milieux fortement anthropisés
-- [ ] En général: Faire attention au accronymes, toujours les décrire
-- [ ] Abstract
-- [ ] Take home messages
+- The Biodiversity Distribution Index will be calculated for birds only (for now)
+
+- While it can identifies gain and loss of biodiversity, it can also identifies alteration of biodiversity (e.g. migration of distribution towards the North to follow climate change) due to it's spatial dimension 
