@@ -57,6 +57,10 @@ class: middle, title-slide
 
 <i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> [@v_bellavance](https://twitter.com/v_bellavance)
 
+???
+
+Bonjour tout le monde, je suis Vincent Bellavance, étudiant à la maitrise dans le laboratoire de Dominique Gravel. Je vais vous présenter mon projet qui porte sur le développement d'un nouvel indicateur de changement de biodiversité pour le Québec, le Biodiversity Distribution Index.
+
 ---
 
 # Les objectifs d'Aichi 2020
@@ -76,7 +80,7 @@ C'est cette année que se terminait la décennie pour la biodiversité qui a ét
 
 ???
 
-Cette décennie servait à promouvoir le plan stratégique 2011-2020 et les objectifs d'Aichi,
+Cette décennie servait à promouvoir les objectifs d'Aichi 2020. Représsente 20 objectifs différentes qui vise à réduire la perte de biodiversité à l'échelle globale
 
 --
 
@@ -84,64 +88,7 @@ Cette décennie servait à promouvoir le plan stratégique 2011-2020 et les obje
 
 ???
 
-tous deux adopté par les parties de la Convention sur la Diversité Biologique, un traité international signé par plus de 160 pays en 1992 qui vise la conservation de la biodiversité.
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![position: fixed](images/cbd/aichi/aichi.png)]
-
-???
-
-Les objectifs d'Aichi représente 20 objectifs visant à réduire la perte de biodiversité à l'échelle globale et sont divisés en cinq grandes classes.
-
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![position: fixed](images/cbd/aichi/aichi1.png)]
-
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![](images/cbd/aichi/aichi2.png)]
-
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![](images/cbd/aichi/aichi3.png)]
-
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![](images/cbd/aichi/aichi4.png)]
-
----
-
-# Les objectifs d'Aichi 2020
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br><br>
-
-.center[![](images/cbd/aichi/aichi5.png)]
+qui a été adopté par les parties de la Convention sur la Diversité Biologique, un traité international signé par plus de 160 pays en 1992 qui vise la conservation de la biodiversité.
 
 ---
 
@@ -151,6 +98,8 @@ Les objectifs d'Aichi représente 20 objectifs visant à réduire la perte de bi
 <br>
 
 .pull-left[![:scale 90%; position: relative; left: 4vh; border: 2px solid #555](images/cbd/gbo5.png)]
+
+.cite[CBD 2020]
 
 ???
 
@@ -178,12 +127,16 @@ Dans le cadre de la dernière année de la décennie, la CBD sorti un rapport af
 - .font120[Actions insuffisantes]
 ]
 
+.cite[CBD 2020]
+
 ---
 
 # IPBES
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
 .pull-left[![](images/cbd/ipbes.png)]
+
+.cite[IPBES 2019]
 
 ???
 
@@ -208,9 +161,7 @@ L'IPBES créée en 2012
 
 Premier rapport de ce groupe d'expert sur l'état de la biodiversité à l'échelle globale
 
-Ce rapport traite entres autres de la contribution de la nature à la société, des causes des changements de biodiversité, des objectifs de conservation et des capacités à la protéger 
-
-Comme les réseaux d'observations et les programmes de suivis sont encore plutôt rares dans le monde, les experts de l'IPBES se sont concentrés sur les risques d'extinction d'espèces provenant de différentes groupes taxonomiques bien documentés. Il se sont également concentrés sur les pressions anthropiques qui amènent les changements de biodiversité puisque ces données là sont plus accessibles.
+Ce rapport s'est concentré sur les risques d'extinction des espèces et l'évolution des changements environnementaux qui sont à l'origine des changements de biodiversité
 
 ---
 
@@ -246,6 +197,7 @@ Comme les réseaux d'observations et les programmes de suivis sont encore plutô
 - Changements climatiques
 ]
 ]
+
 ---
 
 # IPBES: Les risques d'extinction
@@ -257,6 +209,8 @@ Comme les réseaux d'observations et les programmes de suivis sont encore plutô
   ![](images/cbd/ipbes_ext.png)
 ]
 
+.cite[IPBES 2019]
+
 ???
 
 Une des figures principales du rapport sur les risques d'extinction.
@@ -265,43 +219,7 @@ Ce raport estime à 1 million le nombre d'espèces menacées
 
 Il nous manque encore beaucoup de connaissances pour avoir un portrait complet et global de la biodiversité
 
----
-
-# IPBES: Les lacunes de connaissances
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.font120[
-- Données, inventaires et suivis
-]
-
---
-
-
-.font120[
-- Connaissances sur certains écosystèmes (e.g. eaux douces)
-]
-
---
-
-
-.font120[
-- Taxonomiques
-]
-
---
-
-
-.font120[
-- Apport de la biodiversité aux populations humaines
-]
-
-???
-
-La science des changements de biodiversité est encore très jeune. Il est très difficiles d'obtenir de l'information sur des suivis de biodiversité
-
-Les scientifiques s'accordent toutefois pour dire que la biodiversité diminue, du moins à l'échelle globale. Quand on change d'échelle spatiale, ce n'est pas si simple, et certains articles récents qui sont venus ébranler ce que les scientfiques prenaient pour acquis, c'est-à-dire que la biodiversité diminue à toutes les échelles. 
+Les scientifiques s'accordent généralement pour dire que la biodiversité diminue, du moins à l'échelle globale. Quand on change d'échelle spatiale, ce n'est pas si simple, et certains articles récents qui sont venus ébranler ce que les scientfiques prenaient pour acquis, c'est-à-dire que la biodiversité diminue à toutes les échelles. 
 
 ---
 
@@ -314,51 +232,15 @@ Les scientifiques s'accordent toutefois pour dire que la biodiversité diminue, 
   ![:scale 80%; position: relative; left: -4vh](images/biodiv/vellend.png)
 ]
 
+.cite[Vellend et al. [2013] Proc. Natl. Acad. Sci. U.S.A.]
+
 ???
 
 Ils ont regardé la richesse spécfique à l'échelle locale puisque c'est à cette échelle que la biodiversité est importante pour les services écosystémiques.
 
 Il n'y a pas vraiment de changement net dans la richesse spécifique chez les plantes
 
-Il a été documenté que les perturbations humaines amènent tout autant de nouvelles espèces que celles qui disparaissent et donc que les pertes locales de biodiversité sont moins importantes que présumé
-
-Également un autre papier de Dornelas et collaborateur en 2014 qui démontre qu'à l'échelle locale et régionale, les communautés subissent plus des changements de biodiversité que des pertes de biodiversité 
-
----
-
-# Défis des suivis de biodiversité
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br>
-.center[![:scale 80%](images/biodiv/loss_alter/loss_alter1.png)]
-
----
-
-# Défis des suivis de biodiversité
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br>
-.center[![:scale 80%](images/biodiv/loss_alter/loss_alter2.png)]
-
----
-
-# Défis des suivis de biodiversité
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br>
-.center[![:scale 80%](images/biodiv/loss_alter/loss_alter3.png)]
-
----
-
-# Défis des suivis de biodiversité
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br><br>
-.center[![:scale 80%](images/biodiv/loss_alter/loss_alter4.png)]
-
-???
-
-Ces articles ont démontré que l'on est pas si bon pour estimer les changements de biodiversité et qu'il y a encore beaucoup de défis auxquelles nous devons faire face. 
+Il y a tout autant nouvelles espèces que celles qui disparaissent et donc que les pertes locales de biodiversité sont moins importantes que présumé
 
 ---
 
@@ -369,11 +251,18 @@ Ces articles ont démontré que l'on est pas si bon pour estimer les changements
 
 > .font120[La **biodiversité change** et les **risques d'extinction augmentent**]
 
+???
+
+Par contre, ces articles ne nient pas qu'il y a un déclin à l'échelle globale
 --
 
 <br>
 
 > .font120[**Incertitudes** sur l'estimation de ces changements]
+
+???
+
+Ces articles ont démontré que l'on est pas si bon pour estimer les changements de biodiversité à toute les échelles et qu'il y a encore beaucoup de défis auxquelles nous devons faire face. 
 
 --
 
@@ -448,22 +337,6 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 ---
 
-# Les indicateurs de biodiversité
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-**.font120[Indice Liste Rouge (Red List Index):]**<br>
-  .font120[Risques d'extinction globaux de groupes d'espèces]
-
-<br>
---
-
-**.font120[Indice Planète Vivante (Living Planet Index):]**<br>
-  .font120[Tendances moyennes dans les tailles de population d'espèces de vertébrés]
-
----
-
 # Indice Planète Vivante
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
@@ -483,44 +356,6 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 .font120[
 - Peut-être calculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
-]
-
----
-
-# Indice Planète Vivante
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-- .font120[**Suivi de populations**]
-
-.pull-left[
-  ![:scale 95%](images/lpi/plie_data.svg)
-]
-
-.pull-right[
-  ![:scale 95%](images/lpi/bal_noire_data.svg)
-]
-
-<br>
-
-.font120[
-  .center[
-    Plus toutes les autres populations...
-  ]
-]
-
----
-
-# Indice Planète Vivante
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-- .font120[**Modèles généralisés additifs**]
-
-.pull-left[
-  ![:scale 95%](images/lpi/plie_gam.svg)
-]
-
-.pull-right[
-  ![:scale 95%](images/lpi/bal_noire_gam.svg)
 ]
 
 ---
@@ -577,16 +412,13 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
   ![:scale 95%](images/global/lpi.png)
 ]
 
----
+.cite[WWF [2020]]
 
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
+???
 
-<br>
+Dans le dernier rapport de l'Indice Planète Vivante, il est rapporté que la taille moyenne des populations de vertébrés à travers le monde a diminué de 68%
 
-.center[
-  ![](images/global/na.png)
-]
+Ils ont également calculé l'indice selon des grandes régions et il y a une grande variabilité de l'indicateur entre les différentes régions.
 
 ---
 
@@ -599,16 +431,7 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
   ![](images/global/europe.png)
 ]
 
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.center[
-  ![](images/global/africa.png)
-]
+.cite[WWF [2020]]
 
 ---
 
@@ -621,6 +444,8 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
   ![](images/global/sa.png)
 ]
 
+.cite[WWF [2020]]
+
 ---
 
 # Les indicateurs à l'échelle globale
@@ -630,11 +455,19 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
 
 - .font180[Déclin globale]
 
+???
+
+Donc, le message du rapport du LPI est qu'il y a un fort déclin des populations de vertébrés dans le monde
+
 --
 
 <br>
 
 - .font180[Mais...]
+
+???
+
+Mais, il y a quelques articles qui viennent nuancer le message du rapport de l'Indice Planète Vivante.
 
 ---
 
@@ -647,24 +480,11 @@ La mise en place par la Convention sur la Diversité Biologique des objectifs po
   ![:scale 60%](images/global/dornelas2019.png)
 ]
 
-???
-
-Dornelas et collaborateur en 2019: En gros, il y a des gagnants et des perdants. 85% des populations ont un taux de croissance nul
-
----
-
-# Les indicateurs à l'échelle globale
-<hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-<br>
-
-.center[
-  ![:scale 65%](images/global/leung2017.png)
-]
+.cite[Dornelas et al. [2019] Ecol. Lett]
 
 ???
 
-Il n'y a que les amphibiens qui subissent un réel déclin significatif
+Dornelas et collaborateur en 2019. Avec le même jeu de données que le LPI, ils ont vu que 85% des populations ont un taux de croissance nul. Le reste des 15% sont en croissance ou en décroissance de manière égale. Au final, Pas de changement net.
 
 ---
 
@@ -677,9 +497,11 @@ Il n'y a que les amphibiens qui subissent un réel déclin significatif
   ![:scale 70%](images/global/leung2020.png)
 ]
 
+.cite[Leung et al. [2020] Nature]
+
 ???
 
-Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques populations dont le déclin est extrême. Lorsqu'on retire ces populations, l'indice tourne autour de 0.
+Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques populations dont le déclin est extrême. Lorsqu'on retire ces populations, l'indice tourne autour de 1.
 
 ---
 
@@ -697,12 +519,14 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 # Les indicateurs à l'échelle globale
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-.font120[**Indice liste rouge**: Risques d'extinction]
+.font120[**Indice liste rouge (Red List Index)**: Risques d'extinction]
 
 
 .center[
   ![:scale 65%](images/global/rli.png)
 ]
+
+.cite[IUCN [2020]]
 
 ---
 
@@ -713,11 +537,19 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 
 - .font150[Biodiversité **diminue**, mais **difficile** de faire un **portrait global**]
 
+???
+
+Les scientifiques s'entendent généralement pour dire que la biodiversité à l'échelle globale diminue. C'est toutefois difficile de faire un portrait global en tenant compte de toute la variabilité dans ces changements.
+
 --
 
 <br>
 
 - .font150[Les **suivis nationaux** sont nécessaires]
+
+???
+
+Les suivis nationaux sont donc nécessaires puisque ça permet d'avoir une idée plus précise de l'état de la biodiversité dans un pays. C'est très important puisque c'est les pays qui vont adopter les politiques de conservation.
 
 ---
 
@@ -732,6 +564,8 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
   ![:scale 90%](images/canada/lpi_can.png)
 ]
 
+.cite[WWF Canada [2020]]
+
 ---
 
 # Les indicateurs au Canada
@@ -744,6 +578,8 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
 .center[
   ![:scale 85%](images/canada/iec.png)
 ]
+
+.cite[Environnement Canada [2019]]
 
 ---
 
@@ -758,11 +594,13 @@ Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques p
   ![:scale 95%](images/canada/birds.png)
 ]
 
+.cite[IOCAN [2019]]
+
 ???
 
-C'est donc important d'avoir des indicateurs qui puissent se décortiquer afin de bien identifier les régions et les taxons qui sont réellement en déclin et de faire un meilleur portrait de l'ensemble de la siatuation
+Initiative de conservations des oiseaux de l'Amérique du Nord
 
-Le Canada a plusieurs indicateurs de biodiversité et c'est bien parce qu'on peut voir que les changements de biodiversité documenté par les indicateurs sont très différents de ceux à l'échelle global. Ça permet de mieux identifier les taxons et les régions qui ont besoin de mesures de cnservation pour améliorer leurs situations. Par contre, si on veut avoir une idée de l'état de la biodiversité à l'échelle de la province, on ne peut pas nécessairement les utiliser puisqu'il y a également une grande variabilité dans les changements de biodiversité.
+Le Canada a plusieurs indicateurs de biodiversité et on peut voir que les changements de biodiversité documenté par les indicateurs sont très différents de ceux à l'échelle globale. Par contre, si on veut avoir une idée de l'état de la biodiversité à l'échelle de la province, on ne peut pas nécessairement les utiliser puisqu'il y a également une grande variabilité dans les changements de biodiversité.
 
 ---
 
@@ -784,6 +622,10 @@ Le Canada a plusieurs indicateurs de biodiversité et c'est bien parce qu'on peu
 - .font120[Orientation du gouvernement]
 
   >.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+
+???
+
+C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
 
 ---
 
@@ -1120,18 +962,20 @@ L'indice serait calculé globalement pour le Québec, mais il va être calculé 
 
 ???
 
-De calculer pour les oiseaux seulement peut être une limite de cet indicateur, mais les oiseaux sont des très bons indicateurs des perturbations parce qu'ils répondent rapidement aux changements.
+L'indicateur n'est calculer que pour les oiseaux présentement puisque c'est le seul groupe taxonomique avec assez de données pour calculer des aires de distribution sur une longue période de temps.
+
+Je souhaite calculer l'indicateur par groupe d'oiseaux utilisé dans le rapport sur l'état des oiseau de l’Initiative de conservation des oiseaux de l’Amérique du Nord afin de mieux identifier les gorupes d'oiseaux en déclin au Québec.
 
 ---
 
 # Limites
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
 
-- Seulement pour les oiseaux
+- .font120[Seulement pour les oiseaux]
 
 ???
 
-Les oiseaux répondent rapidement aux changements et sont de excellents indicateurs de la santé d'un écosystèmes
+De calculer pour les oiseaux seulement peut être une limite de cet indicateur, mais les oiseaux sont des très bons indicateurs des perturbations parce qu'ils répondent rapidement aux changements. C'est également des bons indicateurs de la santé d'un écosystème.
 
 --
 
@@ -1141,24 +985,20 @@ Les oiseaux répondent rapidement aux changements et sont de excellents indicate
 
 Peut mener à des fausses colonisations ou fausses extinctions
 
---
-
-- .font120[Les résultats dépendent de la qualité des modèles]
-
 ---
 
 # Avantages
 <hr width="100%" align="left" size="0.3" color="#33638d"></hr>
-
-- .font120[Peut-être utilisée peu importe le modèle]
-
---
 
 - .font120[Permet de calculer un indice pour les endroits où peu de suivis à long terme disponibles]
 
 --
 
 - .font120[Permet de visualiser les changements de biodiversité au niveau spatial]
+
+???
+
+Contrairement au LPI dont l'interprétation des changements est local (puisqu'on mesure des populations à un endroit donnée), le Biodiversity Distribution Index permet de visualiser les changements de biodiversité au niveau spatial. Ça permet non seulement d'identifier des espèces dont l'aire de distribution augmente ou diminue, mais également d'identifier des espèces dont l'aire de distribution migre vers le nord à cause des changements cimatiques par exemple. on ne regarde pas que la diminution ou l'augmentation de biodiversité.
 
 --
 
@@ -1188,6 +1028,8 @@ Peut mener à des fausses colonisations ou fausses extinctions
   ![:scale 70%](images/global/leung2020_3.png)
 ]
 
+.cite[Leung et al. [2020] Nature]
+
 ---
 
 # Pour la suite
@@ -1197,7 +1039,7 @@ Peut mener à des fausses colonisations ou fausses extinctions
 
 --
 
-- .font120[Corrélation entre variation biodiversité et pressions anthropiques]
+- .font120[Corrélation entre variation de l'indicateur et les changements environnementaux]
 
 ---
 
