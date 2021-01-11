@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Biodiversity Distribution Index</title>
+    <meta charset="utf-8" />
+    <link href="assets/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="assets/tile-view-0.2.4/tile-view.css" rel="stylesheet" />
+    <script src="assets/tile-view-0.2.4/tile-view.js"></script>
+    <link href="assets/animate.css-3.7.2/animate.xaringan.css" rel="stylesheet" />
+    <link href="assets/tachyons-4.12.0/tachyons.min.css" rel="stylesheet" />
+    <link href="assets/xaringanExtra-extra-styles-0.2.4/xaringanExtra-extra-styles.css" rel="stylesheet" />
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x979078c4207414d84b65a3e5452ad6a","expires":1}</script>
+    <script src="assets/himalaya-1.1.0/himalaya.js"></script>
+    <script src="assets/js-cookie-3.0.0/js.cookie.js"></script>
+    <link href="assets/editable-0.2.4/editable.css" rel="stylesheet" />
+    <script src="assets/editable-0.2.4/editable.js"></script>
+    <link href="assets/panelset-0.2.4/panelset.css" rel="stylesheet" />
+    <script src="assets/panelset-0.2.4/panelset.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <link rel="stylesheet" href="conf/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="conf/css/fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+class: middle, title-slide
+
+&lt;div class="my-logo-left"&gt;&lt;/div&gt;
+
+# Biodiversity
+# Distribution Index
+
+&lt;hr width="60%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+## Un indicateur de biodiversité du Québec
+
+### Vincent Bellavance
+
+&lt;br&gt;
+&lt;i class="fa fa-github fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; [VincentBellavance/seminar1](https://github.com/VincentBellavance/seminar1)
+
+&lt;i class="fa fa-twitter fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; [@v_bellavance](https://twitter.com/v_bellavance)
+
+???
+
+Bonjour tout le monde, je suis Vincent Bellavance, étudiant à la maitrise dans le laboratoire de Dominique Gravel. Je vais vous présenter mon projet qui porte sur le développement d'un nouvel indicateur de changement de biodiversité pour le Québec, le Biodiversity Distribution Index.
+
+---
+
+# Les objectifs d'Aichi 2020
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;&lt;br&gt;
+.center[![:scale 60%](images/cbd/decade.png)]
+&lt;br&gt;&lt;br&gt;
+
+???
+
+C'est cette année que se terminait la décennie pour la biodiversité qui a été déclarée par l'ONU en 2011.
+
+--
+
+.pull-left[![:scale 80%; position: relative; left: 4vh](images/cbd/aichi/aichi_cbd.png)]
+
+???
+
+Cette décennie servait à promouvoir les objectifs d'Aichi 2020. Représsente 20 objectifs différentes qui vise à réduire la perte de biodiversité à l'échelle globale
+
+--
+
+.pull-right[![:scale 90%; position: relative](images/cbd/cbd.png)]
+
+???
+
+qui a été adopté par les parties de la Convention sur la Diversité Biologique, un traité international signé par plus de 160 pays en 1992 qui vise la conservation de la biodiversité.
+
+---
+
+# Les objectifs d'Aichi 2020
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.pull-left[![:scale 90%; position: relative; left: 4vh; border: 2px solid #555](images/cbd/gbo5.png)]
+
+.cite[CBD 2020]
+
+???
+
+Dans le cadre de la dernière année de la décennie, la CBD sorti un rapport afin d'évaluer l'atteinte des objectifs d'Aichi.
+
+--
+
+&lt;br&gt;&lt;br&gt;
+
+.pull-right[![:scale 80%; position: relative; left: 2vh](images/cbd/aichi/aichi_fail.png)]
+
+---
+
+# Les objectifs d'Aichi 2020
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.pull-left[![:scale 90%; position: relative; left: 4vh; border: 2px solid #555](images/cbd/gbo5.png)]
+
+.pull-right[
+  &lt;br&gt;&lt;br&gt;
+- .font120[Perte de biodiversité s'accélère]
+  
+- .font120[Actions insuffisantes]
+]
+
+.cite[CBD 2020]
+
+---
+
+# IPBES
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.pull-left[![](images/cbd/ipbes.png)]
+
+.cite[IPBES 2019]
+
+???
+
+Les conclusions de ce rapport sont partagées par d'autres rapports, dont celui de la
+--
+
+.pull-right[
+  
+  &lt;br&gt;
+
+  .font120[Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques **(IPBES)**]
+  &lt;br&gt;
+  .font120[=]
+  &lt;br&gt;
+  .font120[Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC)]
+
+]
+
+???
+
+L'IPBES créée en 2012
+
+Premier rapport de ce groupe d'expert sur l'état de la biodiversité à l'échelle globale
+
+Ce rapport s'est concentré sur les risques d'extinction des espèces et l'évolution des changements environnementaux qui sont à l'origine des changements de biodiversité
+
+---
+
+# IPBES: Les menaces à la biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+.pull-left[
+.font120[**Terrestres:**]
+
+.font120[
+- L'utilisation du territoire:
+  - agriculture
+  - foresterie
+  - urbanisation
+]
+
+.font120[**Marins:**]
+
+- .font120[La pêche]
+]
+
+--
+
+.pull-right[
+.font120[**Déclins:**]
+
+.font120[
+- Destruction d’habitats
+- Surexploitation
+- Pollution
+- Introduction d’espèces exotiques
+- Changements climatiques
+]
+]
+
+---
+
+# IPBES: Les risques d'extinction
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![](images/cbd/ipbes_ext.png)
+]
+
+.cite[IPBES 2019]
+
+???
+
+Une des figures principales du rapport sur les risques d'extinction.
+
+Ce raport estime à 1 million le nombre d'espèces menacées
+
+Il nous manque encore beaucoup de connaissances pour avoir un portrait complet et global de la biodiversité
+
+Les scientifiques s'accordent généralement pour dire que la biodiversité diminue, du moins à l'échelle globale. Quand on change d'échelle spatiale, ce n'est pas si simple, et certains articles récents qui sont venus ébranler ce que les scientfiques prenaient pour acquis, c'est-à-dire que la biodiversité diminue à toutes les échelles. 
+
+---
+
+# Défis des suivis de biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![:scale 80%; position: relative; left: -4vh](images/biodiv/vellend.png)
+]
+
+.cite[Vellend et al. [2013] Proc. Natl. Acad. Sci. U.S.A.]
+
+???
+
+Ils ont regardé la richesse spécfique à l'échelle locale puisque c'est à cette échelle que la biodiversité est importante pour les services écosystémiques.
+
+Il n'y a pas vraiment de changement net dans la richesse spécifique chez les plantes
+
+Il y a tout autant nouvelles espèces que celles qui disparaissent et donc que les pertes locales de biodiversité sont moins importantes que présumé
+
+---
+
+# Défis des suivis de biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+&gt; .font120[La **biodiversité change** et les **risques d'extinction augmentent**]
+
+???
+
+Par contre, ces articles ne nient pas qu'il y a un déclin à l'échelle globale
+--
+
+&lt;br&gt;
+
+&gt; .font120[**Incertitudes** sur l'estimation de ces changements]
+
+???
+
+Ces articles ont démontré que l'on est pas si bon pour estimer les changements de biodiversité à toute les échelles et qu'il y a encore beaucoup de défis auxquelles nous devons faire face. 
+
+--
+
+&lt;br&gt;
+
+&gt; .font120[Motivation pour développer des **méthodes de calcul** et **améliorer les suivis de biodiversité**]
+
+---
+
+# Les indicateurs de biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![:scale 80%](images/indicators/indicator1.png)
+]
+
+???
+
+Les indicateurs font parties des outils qui servent à mesurer les changements de biodiversité.
+---
+
+# Les indicateurs de biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![:scale 80%](images/indicators/indicator2.png)
+]
+
+???
+
+Ils servent à représenter les changements de manière simplifiée
+
+---
+
+# Les indicateurs de biodiversité
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[
+  Très utiles pour communiquer aux **décideurs** et au **grand public**
+]
+
+--
+
+.pull-left[
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/state.png)
+
+  ![:scale 60%; position: relative; left: 8vh](images/indicators/objectives.png)
+]
+
+--
+
+.pull-right[
+.font120[
+- Compréhensible
+
+&lt;br&gt;
+- Communicable
+
+&lt;br&gt;
+- Mesure précise
+
+]
+]
+
+???
+
+La mise en place par la Convention sur la Diversité Biologique des objectifs pour la biodiversité de 2010 suivi des objectifs d'Aichi 2020 a grandement accélérer le développement de plusieurs indicateurs. Il en existe aujourd'hui plus de 60. Le Red List Index, le Wild Bird Index et le Living Planet Index font partis des indicateurs les mieux développés et les plus connus. RLI: Risque d'extinction des espèces. WBI: LPI pour les oiseaux
+
+---
+
+# Indice Planète Vivante
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[
+- Mesure le changement moyen de la taille des populations de vertébrés depuis 1970
+]
+
+--
+
+.font120[
+- Utilise les suivis de population à long terme:
+  - **Même méthodologie**
+  - Minimum **deux points**
+]
+
+--
+
+.font120[
+- Peut-être calculer **globalement**, pour une **région précise** ou pour un **groupe taxonomique**
+]
+
+---
+
+# Indice Planète Vivante
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[**Taux de croissance de chaque population**]
+
+.pull-left[
+  ![:scale 95%](images/lpi/plie_gr.svg)
+]
+
+.pull-right[
+  ![:scale 95%](images/lpi/bal_noire_gr.svg)
+]
+
+---
+
+# Indice Planète Vivante
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[**Taux de croissance moyen global**]
+
+&lt;br&gt;
+
+.center[
+  ![:scale 85%](images/lpi/global_gr.svg)
+]
+
+---
+
+# Indice Planète Vivante
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[**Calcul de l'indice**]
+
+&lt;div style="position: relative; left: 5vh;"&gt;$$I_t = I_{t-1} 10^{\bar{d}_t}$$&lt;/div&gt;
+ 
+&lt;br&gt;&lt;br&gt;
+
+.center[
+  ![:scale 80%](images/lpi/lpi.svg)
+]
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Indice planète vivante**]
+
+.center[
+  ![:scale 95%](images/global/lpi.png)
+]
+
+.cite[WWF [2020]]
+
+???
+
+Dans le dernier rapport de l'Indice Planète Vivante, il est rapporté que la taille moyenne des populations de vertébrés à travers le monde a diminué de 68%
+
+Ils ont également calculé l'indice selon des grandes régions et il y a une grande variabilité de l'indicateur entre les différentes régions.
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![](images/global/europe.png)
+]
+
+.cite[WWF [2020]]
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![](images/global/sa.png)
+]
+
+.cite[WWF [2020]]
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+- .font180[Déclin globale]
+
+???
+
+Donc, le message du rapport du LPI est qu'il y a un fort déclin des populations de vertébrés dans le monde
+
+--
+
+&lt;br&gt;
+
+- .font180[Mais...]
+
+???
+
+Mais, il y a quelques articles qui viennent nuancer le message du rapport de l'Indice Planète Vivante.
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![:scale 60%](images/global/dornelas2019.png)
+]
+
+.cite[Dornelas et al. [2019] Ecol. Lett]
+
+???
+
+Dornelas et collaborateur en 2019. Avec le même jeu de données que le LPI, ils ont vu que 85% des populations ont un taux de croissance nul. Le reste des 15% sont en croissance ou en décroissance de manière égale. Au final, Pas de changement net.
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.center[
+  ![:scale 70%](images/global/leung2020.png)
+]
+
+.cite[Leung et al. [2020] Nature]
+
+???
+
+Le grand déclin obtenu avec le LPI n'est en fait que le résultat de quelques populations dont le déclin est extrême. Lorsqu'on retire ces populations, l'indice tourne autour de 1.
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+.font150[Message plus **nuancé**:]
+
+- .font150[**Grande variabilité** dans les **régions** et les groupes **taxonomiques**]
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Indice liste rouge (Red List Index)**: Risques d'extinction]
+
+
+.center[
+  ![:scale 65%](images/global/rli.png)
+]
+
+.cite[IUCN [2020]]
+
+---
+
+# Les indicateurs à l'échelle globale
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+- .font150[Biodiversité **diminue**, mais **difficile** de faire un **portrait global**]
+
+???
+
+Les scientifiques s'entendent généralement pour dire que la biodiversité à l'échelle globale diminue. C'est toutefois difficile de faire un portrait global en tenant compte de toute la variabilité dans ces changements.
+
+--
+
+&lt;br&gt;
+
+- .font150[Les **suivis nationaux** sont nécessaires]
+
+???
+
+Les suivis nationaux sont donc nécessaires puisque ça permet d'avoir une idée plus précise de l'état de la biodiversité dans un pays. C'est très important puisque c'est les pays qui vont adopter les politiques de conservation.
+
+---
+
+# Les indicateurs au Canada
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Indice planète vivante**]
+
+&lt;br&gt;
+
+.center[
+  ![:scale 90%](images/canada/lpi_can.png)
+]
+
+.cite[WWF Canada [2020]]
+
+---
+
+# Les indicateurs au Canada
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Indice des espèces canadiennes**]
+
+&lt;br&gt;
+
+.center[
+  ![:scale 85%](images/canada/iec.png)
+]
+
+.cite[Environnement Canada [2019]]
+
+---
+
+# Les indicateurs au Canada
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**États des oiseaux du Canada (2019)**]
+
+&lt;br&gt;
+
+.center[
+  ![:scale 95%](images/canada/birds.png)
+]
+
+.cite[IOCAN [2019]]
+
+???
+
+Initiative de conservations des oiseaux de l'Amérique du Nord
+
+Le Canada a plusieurs indicateurs de biodiversité et on peut voir que les changements de biodiversité documenté par les indicateurs sont très différents de ceux à l'échelle globale. Par contre, si on veut avoir une idée de l'état de la biodiversité à l'échelle de la province, on ne peut pas nécessairement les utiliser puisqu'il y a également une grande variabilité dans les changements de biodiversité.
+
+---
+
+# Les suivis de biodiversité au Québec
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[**Aucun suivi** de biodiversité à **long terme**]
+
+--
+
+- .font120[Centre de données sur le patrimoine naturel du Québec : **espèces à statut**]
+
+--
+
+- .font120[Manque de données (e.g. **suivis à long terme de populations**)]
+
+--
+
+- .font120[Orientation du gouvernement]
+
+  &gt;.font120[**Évaluation** de la **biodiversité** et **élaboration** d’un **réseau de suivi**]
+
+???
+
+C'est important d'avoir ce genre de suivi, surtout que l'évaluation de la biodiversité et l'élaboration d'un réseau de suivi de la biodiversité fait partie des orientation du gouvernement en matière de biodiversité. 
+
+---
+
+# Questions
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+&lt;br&gt;
+
+&gt; .font110[Quels sont les **changements de biodiversité au Québec** dans les **dernières décennies**?]
+
+&lt;br&gt;
+
+--
+
+&lt;br&gt;
+
+&gt; .font110[Est-il possible de développer un **indice** utilisant les **données d'occurrence et d'abondance** disponibles?]
+
+---
+
+# Objectifs
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+&lt;br&gt;
+.font110[Objectif général:]
+&lt;br&gt;&lt;br&gt;
+&gt; **.font120[.center[Développer un indice de changement de biodiversité basé sur les changements de distribution des espèces]]**
+
+&lt;br&gt;&lt;br&gt;
+--
+
+.font110[Objectif secondaire:]
+&lt;br&gt;&lt;br&gt;
+&gt;**.font120[.center[Développer le pipeline qui permettra d'automatiser le calcul de l'indice avec la base de données ATLAS et de représenter le résultat au moyen d'un outil web interactif]]**
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline1.png)]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline2.png)]
+
+???
+
+Base de données commencé en 2019, toujours en développement, notamment pour ce qui est de la validation des données et de la taxonomie, et de l'injection de données. 
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline2.png)]
+
+.font110[
+- **Données d'abondance et d'occurrence** des espèces du **Québec**
+  - Au-dessus de **130 millions d'observations** d'environ **1000 espèces**
+]
+--
+.font110[
+- Proviennent de **plusieurs sources** dont:
+  - Gouvernementales
+  - Bases de données ouvertes (e.g. GBIF)
+  - Science citoyenne (e.g. eBird)
+]
+--
+.font110[
+- **Standard d'informations** pour les observations sur la biodiversité au Québec
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline3.png)]
+
+???
+
+Une librairie R qui est présentement développée par le laboratoire, pour calculer les aires de distribution des espèces présentes dans Atlas. Je ne m'occuperai pas spécifiquement des aires de distribution, mais je vais utiliser les aires de distribution dans le pipeline pour automatiser le calcul de l'indice.
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
+
+.left[![:scale 50%; position:relative; top: 3vh; left: 5vh](images/sdm/sdm1.png)]
+
+???
+
+Ce modèle est un exemple de ce qui a été fait jusqu'à présent avec la librarie mapSpecies.
+--
+
+&lt;div style="float: right; position: relative; font-size: 120%; top: -21vh; left: -8vh;"&gt;3km x 3km&lt;/div&gt;
+&lt;div style="float: right; position: relative; font-size: 120%; top: -17vh; left: 9vh;"&gt;(312000 cellules)&lt;/div&gt;
+
+???
+
+Pour l'instant, le Québec est divisé en 312000 cellules de 3km par 3km. 
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 40%; position:relative](images/pipeline/pipeline3.png)]
+
+.left[![:scale 50%; position:relative; top: 3vh; left: 5vh](images/sdm/sdm2.png)]
+
+&lt;div style="float: right; position: relative; font-size: 120%; top: -21vh; left: -8vh;"&gt;3km x 3km&lt;/div&gt;
+&lt;div style="float: right; position: relative; font-size: 120%; top: -17vh; left: 9vh;"&gt;(312000 cellules)&lt;/div&gt;
+
+???
+
+Chaque cellule représente une probabilité d'occurrence qui va de 0 à 1. 
+--
+
+.right[![:scale 18%; position:relative; top: -9vh; left: 7vh](images/sdm/enviro.png)]
+
+???
+
+Les aires de distribution sont modélisées en utilisant les conditions environnementales comme la température et les précipitations. On utilise également le temps (les années) comme variable explicative. 
+--
+
+.right[![:scale 19%; position:relative; top: -20vh; left: -5vh](images/sdm/enviro2.png)]
+
+???
+
+Donc, à la place de faire un modèle différent par année, on souhaite faire un seul modèle qui prend en compte le temps, ce qui va permettre de lisser la distribution de l'espèce d'année en année, un peu comme dans la méthode où on utilise les GAMs pour venir lisser les abondances d'espèces.
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[![:scale 95%; position:relative; top: 12vh](images/pipeline/pipeline4.png)]
+
+???
+
+Vient ensuite le calcul de l'indice. Je développe présentement la librairie pour faire les calculs sur R. 
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[
+  ![:scale 63%](images/bdi/bobo.svg)
+  ![:scale 63%; position: relative; top: -5vh](images/bdi/jay.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul de l'aire de distribution**]
+
+.center[
+  ![:scale 60%](images/bdi/calc_aire1.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul de l'aire de distribution**]
+
+.center[
+  ![:scale 60%](images/bdi/calc_aire2.svg)
+]
+
+--
+
+&lt;br&gt;
+
+&lt;div style="position: relative; left: -6vh"&gt;$$(3km \times 3km) \times 50\% = 4.5km^2$$&lt;/div&gt;
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul de l'aire de distribution**]
+
+&lt;br&gt;
+
+.pull-left[
+  ![:scale 95%](images/bdi/bobo_sum.svg)
+]
+
+.pull-right[
+  ![:scale 95%](images/bdi/jay_sum.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Taux de croissance des aires de chaque espèce**]
+
+&lt;div style="position: relative; left: -13vh"&gt;$$d_t = log_{10}(\frac{A_t}{A_{t-1}}), \;\; A = aires \; de \; distribution$$&lt;/div&gt;
+
+--
+
+.pull-left[
+  ![:scale 95%](images/bdi/bobo_gr.svg)
+]
+
+.pull-right[
+  ![:scale 95%](images/bdi/jay_gr.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Taux de croissance moyen des aires**]
+
+&lt;div style="position: relative; left: -9vh"&gt;$$\bar{d}_t = \frac{1}{n} \sum_{i=1}^{n} d_{i,t}, \;\; n = nombre \; d'esp\grave{e}ces$$&lt;/div&gt;
+
+--
+
+.center[
+  ![:scale 55%](images/bdi/mean_gr.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul de l'indice**]
+
+&lt;div style="position: relative; left: 5vh;"&gt;$$I_t = I_{t-1} 10^{\bar{d}_t}$$&lt;/div&gt;
+ 
+&lt;br&gt;
+
+&lt;br&gt;
+
+
+.center[
+  ![:scale 60%](images/bdi/bdi_final.svg)
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul des colonisations et extinctions**]
+
+--
+
+.pull-left[
+  ![](images/bdi/col1.svg)
+]
+
+--
+
+&lt;br&gt;&lt;br&gt;
+
+.pull-right[
+  .font120[Colonisation de 11% de la cellule]
+]
+
+--
+
+.pull-left[
+  ![position: relative; top: 30vh](images/bdi/ext1.svg)
+]
+
+--
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+.pull-right[
+  .font120[Extinction de 15% de la cellule]
+]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul des colonisations et extinctions**]
+
+&lt;br&gt;
+
+&lt;div style="padding: 0em 0em 0em 0em !important; position: relative; left: -20vh"&gt;$$d_t = log_{10}(\frac{C_t}{A_{t-1}}), \;\; C_t = somme \; des \; colonisations$$&lt;/div&gt;
+
+--
+
+&lt;br&gt;
+
+&lt;div style="padding: 0em 0em 0em 0em !important; position: relative; left: -20vh"&gt;$$d_t = log_{10}(\frac{E_t}{A_{t-1}}), \;\; E_t = somme \; des \; extinctions$$&lt;/div&gt;
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul selon différentes régions**]
+
+&lt;br&gt;
+
+???
+
+L'indice serait calculé globalement pour le Québec, mais il va être calculé également selon différentes régions. 
+
+--
+
+- .font120[Régions administratives]
+
+- .font120[Zones de végétation]
+
+- .font120[Domaines bioclimatiques]
+
+---
+
+# Méthodes
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.font120[**Calcul pour différents groupes d'oiseaux**]
+
+.center[
+  ![:scale 80%](images/bdi/birds_groups.svg)
+]
+
+???
+
+L'indicateur n'est calculer que pour les oiseaux présentement puisque c'est le seul groupe taxonomique avec assez de données pour calculer des aires de distribution sur une longue période de temps.
+
+Je souhaite calculer l'indicateur par groupe d'oiseaux utilisé dans le rapport sur l'état des oiseau de l’Initiative de conservation des oiseaux de l’Amérique du Nord afin de mieux identifier les gorupes d'oiseaux en déclin au Québec.
+
+---
+
+# Limites
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[Seulement pour les oiseaux]
+
+???
+
+De calculer pour les oiseaux seulement peut être une limite de cet indicateur, mais les oiseaux sont des très bons indicateurs des perturbations parce qu'ils répondent rapidement aux changements. C'est également des bons indicateurs de la santé d'un écosystème.
+
+--
+
+- .font120[Problèmes de détection des observations (fausses présences et fausses absences)]
+
+???
+
+Peut mener à des fausses colonisations ou fausses extinctions
+
+---
+
+# Avantages
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[Permet de calculer un indice pour les endroits où peu de suivis à long terme disponibles]
+
+--
+
+- .font120[Permet de visualiser les changements de biodiversité au niveau spatial]
+
+???
+
+Contrairement au LPI dont l'interprétation des changements est local (puisqu'on mesure des populations à un endroit donnée), le Biodiversity Distribution Index permet de visualiser les changements de biodiversité au niveau spatial. Ça permet non seulement d'identifier des espèces dont l'aire de distribution augmente ou diminue, mais également d'identifier des espèces dont l'aire de distribution migre vers le nord à cause des changements cimatiques par exemple. on ne regarde pas que la diminution ou l'augmentation de biodiversité.
+
+--
+
+- .font120[Basé sur une méthodologie déjà connue]
+
+---
+
+# Pour la suite
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+&lt;br&gt;
+
+&gt; .font120[Indicateur de biodiversité qui permet un suivi à long terme]
+
+&lt;br&gt;
+
+&gt; .font120[Resterait plusieurs aspects sur lesquels il faut travailler]
+
+---
+
+# Pour la suite
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[Appliquer le modèle de Leung et collab. 2020]
+
+.center[
+  ![:scale 70%](images/global/leung2020_3.png)
+]
+
+.cite[Leung et al. [2020] Nature]
+
+---
+
+# Pour la suite
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+- .font120[Étudier les propriétés de l'indice, notamment l'incertitude]
+
+--
+
+- .font120[Corrélation entre variation de l'indicateur et les changements environnementaux]
+
+---
+
+# Remerciements
+&lt;hr width="100%" align="left" size="0.3" color="#33638d"&gt;&lt;/hr&gt;
+
+.center[
+  ![](images/remerciements.svg)
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="conf/js/gifffer.min.js"></script>
+<script src="conf/js/style-macros.js"></script>
+<script>var slideshow = remark.create({
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
